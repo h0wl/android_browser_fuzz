@@ -1,0 +1,412 @@
+--------- beginning of system
+03-05 15:35:36.754  1862  2733 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+--------- beginning of main
+03-05 15:35:36.772 15143 15143 E cr_IntentUtils: getInt failed on bundle null
+03-05 15:35:36.809 21170 21170 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99127: Permission denied
+03-05 15:35:36.809 21170 21170 E Zygote  : createProcessGroup(99127, 0) failed: Permission denied
+03-05 15:35:36.811  1862  3717 I ActivityManager: Start proc 21170:com.android.chrome:sandboxed_process8/u0i127 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService8
+03-05 15:35:36.818 21170 21170 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:35:36.834 21170 21170 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:35:36.835 15143 15143 W cr_SpanAutocomplete: Did not notify - ignored.
+03-05 15:35:36.847 21183 21183 E asset   : setgid: Operation not permitted
+03-05 15:35:36.868 21184 21184 E asset   : setgid: Operation not permitted
+03-05 15:35:36.889 21170 21170 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:35:36.892 21170 21170 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:35:37.031 21170 21170 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:35:37.031 21170 21170 E Minikin : Could not get cmap table size!
+03-05 15:35:37.031 21170 21170 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:35:37.031 21170 21170 I HyLog   : I : FontManager creation successful.
+03-05 15:35:37.033 21170 21170 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:35:37.033 21170 21170 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:35:37.035 21170 21170 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:35:37.035 21170 21170 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:35:37.036 21170 21170 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:35:37.036 21170 21170 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:35:37.038 21170 21170 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:35:37.038 21170 21170 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:35:37.039 21170 21170 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:35:37.039 21170 21170 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:35:37.041 21170 21170 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:35:37.041 21170 21170 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:35:37.041 21170 21170 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:35:37.052 21170 21170 I cr_ChildProcessService: Creating new ChildProcessService pid=21170
+03-05 15:35:37.056 21170 21170 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:35:37.103 21170 21188 I cr_LibraryLoader: Time to load native libraries: 0 ms (timestamps 4261-4261)
+03-05 15:35:37.104 21170 21188 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 15:35:37.104 21170 21188 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 15:35:37.807  1862  1934 I AOD     : [onDisplayStateChangedCallback] mainLcd= false  extLcd= false
+03-05 15:35:37.808  1862  1934 I PowerManagerService: Going to sleep due to screen timeout (uid 1000)...
+03-05 15:35:37.808  1862  1934 I LPWGController: Screen Status [ On -> Off ]
+03-05 15:35:37.809  1862  1862 I WindowManager: Started going to sleep... (why=3)
+03-05 15:35:37.811  1862  1930 I AOD     : handler:POLED_ALARAM_SHOW_PENDING: set 'show pending': delay: 1600
+03-05 15:35:37.838  1432  1432 I fingerprint_hal: fingerprint_get_auth_id
+03-05 15:35:37.838  1432  1432 I [GF_HAL][gf_hal]: [gf_hal_get_auth_id]
+03-05 15:35:37.857  1862  1934 I SensorManager: registerListenerImpl() [Sensor: brcm_apds9160_ambient_light Ambient Light Sensor Non-wakeup, Rate: 1000000, SensorEventListener: com.android.server.power.PocketDetection$3@89bfd92] by com.android.server.power.PocketDetection.setPocketLightSensorEnabled():504
+03-05 15:35:37.858  1432  1432 I fingerprint_hal: fingerprint_authenticate operation_id=[0], gid=[0]
+03-05 15:35:37.858  1432  1432 I [GF_HAL][gf_hal]: [gf_hal_authenticate] group_id=0
+03-05 15:35:37.859   800  2162 I sensors_hal: batch:166, android.sensor.light/6, period=1000000000, max_latency=0
+03-05 15:35:37.859   800  2162 I sensors_hal: batch:175, android.sensor.light/6, period=1000000000, max_latency=0 request completed
+03-05 15:35:37.860   800  2162 I sensors_hal: activate:133, android.sensor.light/6 en=1
+03-05 15:35:37.861   800  2162 E         : ssc_connection:472, ssc connected 800, 0x7af202d228
+03-05 15:35:37.861   800  2162 E         : send_request:490, send_request: 800, 0x7af202d228 
+03-05 15:35:37.865   800  2162 I sensors_hal: activate:144, android.sensor.light/6 en=1 completed
+03-05 15:35:37.866  1862  1934 I SensorManager: registerListenerImpl() [Sensor: LGE Pocket Detection  Wakeup, Rate: 200000, SensorEventListener: com.android.server.power.PocketDetection$2@299a363] by com.android.server.power.PocketDetection.setPocketSensorEnabled():493
+03-05 15:35:37.867   800  2162 I sensors_hal: batch:166, lge.sensor.pocket/18, period=200000000, max_latency=0
+03-05 15:35:37.867   800  2162 I sensors_hal: batch:175, lge.sensor.pocket/18, period=200000000, max_latency=0 request completed
+03-05 15:35:37.868   800  2162 I sensors_hal: activate:133, lge.sensor.pocket/18 en=1
+03-05 15:35:37.868   800  2162 E         : ssc_connection:472, ssc connected 800, 0x7af202d220
+03-05 15:35:37.869   800  2162 E         : send_request:490, send_request: 800, 0x7af202d220 
+03-05 15:35:37.872   800  2162 I sensors_hal: activate:144, lge.sensor.pocket/18 en=1 completed
+03-05 15:35:37.875  1862  1934 I PowerManagerService: Sleeping (uid 1000)...
+03-05 15:35:37.875  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 2, mRequestPolicy = 0, mPowerState.getColorFadeLevel() = 1.0, mPowerState.getScreenState() = 2, mPowerState.getScreenBrightness() = 10, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:35:37.875  1862  3717 W PowerManagerServiceEx: start wakeUpForExtendedDisplay
+03-05 15:35:37.875  1862  3717 W PowerManagerServiceEx: ignore partial wakeup request because not on the STATE_OFF or STATE_DOZE_SUSPEND
+03-05 15:35:37.879  1862  3717 W PowerManagerServiceEx: start wakeUpForExtendedDisplay
+03-05 15:35:37.879  1862  3717 W PowerManagerServiceEx: ignore partial wakeup request because not on the STATE_OFF or STATE_DOZE_SUSPEND
+03-05 15:35:37.921  1862  1862 W FingerprintService: client com.android.systemui is authenticating...
+03-05 15:35:37.932  1862  1934 I DisplayPowerController: [ColorFade] OFF animation start
+03-05 15:35:38.001  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 15:35:38.002  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 15:35:38.002  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 2
+03-05 15:35:38.002  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 15:35:38.002  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-69,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:38.003  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 15:35:38.005  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 15:35:38.005  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 15:35:38.005  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]
+03-05 15:35:38.070  1862  1934 I PocketDetection: lux = 113.0
+03-05 15:35:38.071  1862  1934 I SensorManager: removeAllSensors() [Sensor: brcm_apds9160_ambient_light Ambient Light Sensor Non-wakeup] by com.android.server.power.PocketDetection.setPocketLightSensorEnabled():516
+03-05 15:35:38.072   800  2162 I sensors_hal: activate:133, android.sensor.light/6 en=0
+03-05 15:35:38.072   800  2162 E         : ~ssc_connection:480, ssc disconnected 800, 0x7af202d228 
+03-05 15:35:38.073   800  2162 I sensors_hal: activate:144, android.sensor.light/6 en=0 completed
+03-05 15:35:38.078  2403  2431 I SystemServicesProxy: RecentApps has 8 item(s).
+03-05 15:35:38.443  1862  1934 I DisplayPowerController: [ColorFade] OFF animation end
+03-05 15:35:38.449  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 0, mRequestPolicy = 0, mPowerState.getColorFadeLevel() = 0.0, mPowerState.getScreenState() = 2, mPowerState.getScreenBrightness() = 10, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:35:38.650  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 0, mRequestPolicy = 0, mPowerState.getColorFadeLevel() = 0.0, mPowerState.getScreenState() = 2, mPowerState.getScreenBrightness() = 10, mPendingUpdatePowerState = true, mIsFinishDrawBasicInfo = false
+03-05 15:35:38.650  1862  1934 I DisplayPowerController: Blocking screen off
+03-05 15:35:38.651  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (false,false)
+03-05 15:35:38.652  1862  1934 I SensorManager: registerListenerImpl() [Sensor: LGE Wake-up Light  Wakeup, Rate: 200000, SensorEventListener: com.android.server.display.DisplayPowerControllerEx$4@8b5e84a] by com.android.server.display.DisplayPowerControllerEx.setLightSensorEnable():1694
+03-05 15:35:38.654   800  2162 I sensors_hal: batch:166, lge.sensor.wakeup_light/25, period=200000000, max_latency=0
+03-05 15:35:38.654   800  2162 I sensors_hal: batch:175, lge.sensor.wakeup_light/25, period=200000000, max_latency=0 request completed
+03-05 15:35:38.655   800  2162 I sensors_hal: activate:133, lge.sensor.wakeup_light/25 en=1
+03-05 15:35:38.657   800  2162 E         : ssc_connection:472, ssc connected 800, 0x7af202d228
+03-05 15:35:38.658   800  2162 E         : send_request:490, send_request: 800, 0x7af202d228 
+03-05 15:35:38.665   800  2162 I sensors_hal: activate:144, lge.sensor.wakeup_light/25 en=1 completed
+03-05 15:35:38.669  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (false,false)
+03-05 15:35:38.670  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 0, mRequestPolicy = 0, mPowerState.getColorFadeLevel() = 0.0, mPowerState.getScreenState() = 2, mPowerState.getScreenBrightness() = 144, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:35:38.680  1862  1934 I DisplayPowerController: Unblocked screen off after 29 ms
+03-05 15:35:38.680  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 0, mRequestPolicy = 0, mPowerState.getColorFadeLevel() = 0.0, mPowerState.getScreenState() = 2, mPowerState.getScreenBrightness() = 144, mPendingUpdatePowerState = true, mIsFinishDrawBasicInfo = false
+03-05 15:35:38.680  1862  1934 W DisplayPowerController: unblockScreenOn : mPendingScreenOnUnblocker null
+03-05 15:35:38.680  1862  1934 I WindowManager: Screen turned off...
+03-05 15:35:38.681  1862  1934 I SensorManager: removeAllSensors() [Sensor: LGE Motion Accel  Non-wakeup] by com.android.server.policy.WindowOrientationListener.disable():184
+03-05 15:35:38.682   800  2162 I sensors_hal: activate:133, lge.sensor.motion_accel/5 en=0
+03-05 15:35:38.682   800  2162 E         : ~ssc_connection:480, ssc disconnected 800, 0x7af202d1c8 
+03-05 15:35:38.684   800  2162 I sensors_hal: activate:144, lge.sensor.motion_accel/5 en=0 completed
+03-05 15:35:38.685  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (false,false)
+03-05 15:35:38.688  1862  1930 I DisplayManagerService: Display device changed state: "Built-in Screen", DOZE_SUSPEND
+03-05 15:35:38.689   758  1238 I SDM     : DisplayBase::SetDisplayState: Set state = 3, display 0
+03-05 15:35:38.704  1331  1370 I GBMv2   : PS:0
+03-05 15:35:38.704  1332  1429 I PowerRM : System FW:0 IC:0 SO:1 GT:0 CAPP:3 APP:8
+03-05 15:35:38.705  1332  1429 E PowerRM : found 42, mode set to 0
+03-05 15:35:38.705  1332  1430 I PowerRM : Grant Setting Acceptor[3] Grant[1]
+03-05 15:35:38.705  1332  1429 I PowerRM : FIA lock0 locked
+03-05 15:35:38.709  1862  2207 I InputReader: Reconfiguring input devices.  changes=0x00000004
+03-05 15:35:38.713  2403  2403 I LowBatteryModeManager: onDisplayChanged: changed to false
+03-05 15:35:38.760  1432  1687 I [GF_HAL][gf_hal]: [gf_hal_screen_off]
+03-05 15:35:38.762   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.762   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.762  1862  2349 I DisplayPowerControllerEx: [aod/alc] lux = 113.0, final brightness = 75
+03-05 15:35:38.764  1331  1372 I GBMv2   : GBM state [10]
+03-05 15:35:38.769  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 0, mRequestPolicy = 0, mPowerState.getColorFadeLevel() = 0.0, mPowerState.getScreenState() = 4, mPowerState.getScreenBrightness() = 144, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:35:38.769  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (false,false)
+03-05 15:35:38.769  1862  1862 I WindowManager: Finished going to sleep... (why=3)
+03-05 15:35:38.773  2693  5129 I VoicePrintService: onScreenTurnedOff!! voiceunlock=0qvoice=true
+03-05 15:35:38.774  2693  5129 E VoicePrintService: SenableSensor is failed. Enable : false EnrollData : false
+03-05 15:35:38.774  2693  5129 I VoicePrintService: disableSensor!!
+03-05 15:35:38.778   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.779   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.795   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.796   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.810  2693  2938 I LEDService: stopPatternFlashing()
+03-05 15:35:38.812   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.812   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.813  1347  2314 W DeviceHalMirrorLink: DeviceHalMirrorLink::setParameters() is invalid operation
+03-05 15:35:38.815  1862  2272 I WifiConnectivityManager: startConnectivityScan is skipped, wifistate is connected state
+03-05 15:35:38.817   787   787 I chatty  : uid=1000(system) light@1.0-servi identical 1 line
+03-05 15:35:38.818  2693  2938 I LEDService: updateLightsLocked : turn off led
+03-05 15:35:38.820  2403  2403 I vol.Events: writeEvent dismiss_dialog screen_off
+03-05 15:35:38.820  1862  1934 I SensorManager: registerListenerImpl() [Sensor: LGE Pick-up  Wakeup, Rate: 200000, SensorEventListener: com.android.server.power.SmartController$SmartAodListener@77eb4e6] by com.android.server.power.SmartController.registerSmartAodSensor():216
+03-05 15:35:38.820  1862  2272 E WifiStateMachine: LG_RSSI UPDATE newRssi = -71
+03-05 15:35:38.820   800  2162 I sensors_hal: batch:166, lge.sensor.lgpick/24, period=200000000, max_latency=0
+03-05 15:35:38.820   800  2162 I sensors_hal: batch:175, lge.sensor.lgpick/24, period=200000000, max_latency=0 request completed
+03-05 15:35:38.821   800  2162 I sensors_hal: activate:133, lge.sensor.lgpick/24 en=1
+03-05 15:35:38.821  2702  2847 W QCNEJ   : |CORE| notifyScreenStateChanged failed
+03-05 15:35:38.821   800  2162 E         : ssc_connection:472, ssc connected 800, 0x7af202d1c8
+03-05 15:35:38.822   800  2162 E         : send_request:490, send_request: 800, 0x7af202d1c8 
+03-05 15:35:38.824  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 15:35:38.824  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 15:35:38.824  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 1
+03-05 15:35:38.824  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 15:35:38.824  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=1,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-71,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:38.825   800  2162 I sensors_hal: activate:144, lge.sensor.lgpick/24 en=1 completed
+03-05 15:35:38.828  2693  2938 I LEDService: stopPatternFlashing()
+03-05 15:35:38.828   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.829   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.834  2693  2938 I LEDService: updateLightsLocked : turn on led
+03-05 15:35:38.834  2693  2693 I WfdStateTracker: handleScreenOnEvent: false, wfd mode : -1
+03-05 15:35:38.845   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.845   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.862   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.862   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.863  2403  2403 I LGPowerUI: onReceive = android.intent.action.SCREEN_OFF
+03-05 15:35:38.864  1331  1372 I GBMv2   : GBM state [0]
+03-05 15:35:38.866  2403  2403 I MSimSwitchPanelView: onReceive = android.intent.action.SCREEN_OFF
+03-05 15:35:38.867  2403  2403 I OperatorTextView: [ OperatorTextView ] intent action : android.intent.action.SCREEN_OFF
+03-05 15:35:38.867  2403  2403 I OperatorTextView: Operator(103) is invalid
+03-05 15:35:38.871  1862  1934 I DisplayPowerControllerEx: [aod/alc] lux = 114.0
+03-05 15:35:38.872  1862  1934 I DisplayPowerControllerEx: [aod/alc] lux = 114.0, final brightness = 75
+03-05 15:35:38.873  1862  1934 I DisplayPowerControllerEx: Target value same as current target brightness
+03-05 15:35:38.879   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.879   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.880  2403  2403 I NotchExapndDialog: onReceive = android.intent.action.SCREEN_OFF
+03-05 15:35:38.885 15396 15396 I LIA_Informant_LogCore: LIA Log setTagPrefix - prefix : LIA_Informant_
+03-05 15:35:38.886 15396 15396 I LIA_Informant_LIAIntentReceiver: onReceive() : start LIAIntentService, isSync-false, action-com.lge.android.intent.action.SCREEN_OFF
+03-05 15:35:38.886  2403  2403 I NoAlertsDuringGameHandler: onReceive = android.intent.action.SCREEN_OFF
+03-05 15:35:38.888 15396 15396 I LIA_Informant_LIAIntentService: onCreate()
+03-05 15:35:38.888 15396 15396 I LIA_Informant_IntentManager: open()
+03-05 15:35:38.889  2403  2403 I VideoQualityHandler: onReceive = android.intent.action.SCREEN_OFFnull
+03-05 15:35:38.889 15396 15396 I LIA_Informant_TaskAdaptor: open()
+03-05 15:35:38.889 15396 15396 I LIA_Informant_LIAIntentService: onStartCommand() : intent is not null, startId-1
+03-05 15:35:38.889 15396 15396 I LIA_Informant_IntentManager: handleIntent() : intent is not null, startId-1
+03-05 15:35:38.890 15396 21215 I LIA_Informant_IntentManager: handleMessage() : msg - { when=0 what=1 arg1=1 obj=Intent { act=com.lge.android.intent.action.SCREEN_OFF flg=0x1000010 cmp=com.lge.ia.task.informant/com.lge.ia.intenttask.LIAIntentService (has extras) } target=com.lge.ia.intenttask.IntentManager$IntentHandler }, thread - Thread[IntentManager,5,main]
+03-05 15:35:38.890 15396 21215 I LIA_Informant_TaskAdaptor: isAvailable(SmartMoment)
+03-05 15:35:38.890 15396 21215 I LIA_Informant_LogCore: LIA Log Open() - prefix : LIA_Informant_
+03-05 15:35:38.891 15396 21215 I LIA_Informant_PlatformUtil: getVersionName - com.lge.ia is not found
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent: [LG Intelligent Agent Info] ----------------------
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent:  - LIA SDK Version Name : 0.8.32
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent:  - LIA SDK Release Date : 2016.08.03
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent:  - LIA Service Version Name : null
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent:  - This APK(com.lge.ia.task.informant) Version Name : 5.0.7
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent: --------------------------------------------------
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent: jackIntoLIAService - task name : SmartMoment
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent: tryConnecting ...
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LIATaskLoader: createLIAService - Success
+03-05 15:35:38.891 15396 21215 I LIA_Informant_ConnectionProxyHandler: open() : SmartMoment opened.
+03-05 15:35:38.891 15396 21215 I LIA_Informant_LGIntelligentAgent: tryConnecting : map put - 17
+03-05 15:35:38.891 15396 21215 I LIA_Informant_ConnectionProxyHandler: tryConnecting...
+03-05 15:35:38.892  2403  2403 I HideHomeTouchButtonsHandler: onReceive = android.intent.action.SCREEN_OFF
+03-05 15:35:38.894 15396 21215 I LIA_Informant_ConnectionProxy: startService(com.lge.ia.task.informant) : Success
+03-05 15:35:38.894 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Service State Transition] onCreate()...... 
+03-05 15:35:38.895   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.896   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.897 15396 15396 I LIA_Informant_PlatformUtil: getVersionName - com.lge.ia is not found
+03-05 15:35:38.898  2403  2403 I GameToolsWindow: onReceive = android.intent.action.SCREEN_OFF reason = null
+03-05 15:35:38.898  2403  2403 I GameToolsWindow: Force Hide
+03-05 15:35:38.898 15396 15396 I LIA_Informant_LIARemoteService: [LIA Remote Service Info] ------------------------
+03-05 15:35:38.898 15396 15396 I LIA_Informant_LIARemoteService:  - UID : 2971
+03-05 15:35:38.898 15396 15396 I LIA_Informant_LIARemoteService:  - LIA Core Version Name : 0.8.39
+03-05 15:35:38.898 15396 15396 I LIA_Informant_LIARemoteService:  - LIA Core Release Date : 2016.08.03
+03-05 15:35:38.898 15396 21215 I LIA_Informant_ConnectionProxy: bindService(com.lge.ia.task.informant) : Success
+03-05 15:35:38.898 15396 15396 I LIA_Informant_LIARemoteService:  - LIA Informant Task Version Name : 5.0.7
+03-05 15:35:38.898 15396 15396 I LIA_Informant_LIARemoteService:  - LIA Service Version Name : null
+03-05 15:35:38.898 15396 15396 I LIA_Informant_LIARemoteService: --------------------------------------------------
+03-05 15:35:38.899 15396 15396 I LIA_Informant_LIARemoteService: checkTaskInitialization() : needResetTaskPropertyInSharedPreference() is false, so maintain SharedPreference
+03-05 15:35:38.901 15396 15396 I LIA_Informant_ConnectionProxy: Checking activation option of SmartMoment
+03-05 15:35:38.901 15396 15396 I LIA_Informant_ConnectionProxy: Task Property : TermExtraction, true
+03-05 15:35:38.901 15396 15396 I LIA_Informant_ConnectionProxy: Task Property : UIMAgent, true
+03-05 15:35:38.901 15396 15396 I LIA_Informant_ConnectionProxy: Task Property : Informant, true
+03-05 15:35:38.901 15396 15396 I LIA_Informant_ConnectionProxy: Task Property : SmartMoment, true
+03-05 15:35:38.901 15396 15396 I LIA_Informant_ConnectionProxy: Task activation property : SmartMoment, true
+03-05 15:35:38.901 15396 15396 I LIA_Informant_ConnectionProxyHandler: ConnectionProxyListener - onConnected : 
+03-05 15:35:38.903 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] create(SmartMoment)...... Request
+03-05 15:35:38.904 15396 15396 I LIA_Informant_IntentTaskBase: create()
+03-05 15:35:38.904 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] create(SmartMoment)...... Success
+03-05 15:35:38.904 15396 15396 I LIA_Informant_TaskSession: SmartMoment task is created !!
+03-05 15:35:38.904 15396 15396 I LIA_Informant_TaskSession: SmartMoment create() process time = 0 msec
+03-05 15:35:38.904 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] start(SmartMoment)...... Request
+03-05 15:35:38.906 15396 21218 I LIA_Informant_IntentTaskBase: start()...
+03-05 15:35:38.906 15396 21218 I LIA_Informant_SmartMomentTask: onStart
+03-05 15:35:38.906 15396 21218 I LIA_Informant_IntentTaskBase: start()... success-true
+03-05 15:35:38.906 15396 21218 I LIA_Informant_TaskSession: SmartMoment start() result: true, process time = 0 msec
+03-05 15:35:38.906 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] start(SmartMoment)...... Success
+03-05 15:35:38.906 15396 15396 I LIA_Informant_TaskSession: enable() - enable state : true
+03-05 15:35:38.907 15396 15396 I LIA_Informant_ConnectionProxyHandler: setTaskConnectorIntoTask - Success
+03-05 15:35:38.907 15396 15396 I LIA_Informant_ConnectionProxyHandler: stopTimeoutTimer
+03-05 15:35:38.907 15396 21216 I LIA_Informant_LGIntelligentAgent: tryConnecting : onTryConnectionSuccess - com.lge.ia.LIAIntentTaskAgent@5216fb1
+03-05 15:35:38.907 15396 21216 I LIA_Informant_LGIntelligentAgent: tryConnecting onTryConnectionSuccess : map remove - 17
+03-05 15:35:38.907 15396 21216 I LIA_Informant_TaskAdaptor: connect() : onConnected(), service-com.lge.ia.LIAIntentTaskAgent@5216fb1
+03-05 15:35:38.907 15396 21215 I LIA_Informant_TaskAdaptor: connect() : success-true
+03-05 15:35:38.907  2403  2403 I FullScreenDialog: onReceive = android.intent.action.SCREEN_OFF
+03-05 15:35:38.909 15396 21219 I LIA_Informant_LIAIntentTaskAgent: processIntentAsync(com.lge.android.intent.action.SCREEN_OFF)
+03-05 15:35:38.909 15396 21215 I LIA_Informant_IntentManager: handleNewIntent() : Process request completed-com.lge.android.intent.action.SCREEN_OFF_SmartMoment_async_1
+03-05 15:35:38.911 15396 21218 I LIA_Informant_IntentTaskBase: processAsync() : onProcessIntentAsync()
+03-05 15:35:38.911 15396 21218 I LIA_Informant_SmartMomentTask: onProcessIntentAsync: action = com.lge.android.intent.action.SCREEN_OFF
+03-05 15:35:38.911 15396 21221 I LIA_Informant_SmartMomentTask: onProcessIntentSync -> worker run start: action = com.lge.android.intent.action.SCREEN_OFF
+03-05 15:35:38.912 15396 21221 I LIA_Informant_ActionMapper: className = com.lge.ia.smartmoment.actionhandler.BirthdayActionHandler
+03-05 15:35:38.912   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.912   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.915  3502 21220 E NxpNfcJni: nfcManager_doSetScreenOrPowerState: Enter(1)
+03-05 15:35:38.916 15396 21221 I LIA_Informant_BoardStateUtil: defaultHomePackage : com.lge.launcher3
+03-05 15:35:38.917  3783  3783 I [LGHome6]EditModeOffManager: EditModeOffManager is not running
+03-05 15:35:38.927  4154  4154 I Weather_WeatherService: onReceive, action: android.intent.action.SCREEN_OFF, Time(hour:min:sec) 15:35:38
+03-05 15:35:38.927  4154  4154 I Weather_WeatherService: ACTION screen off
+03-05 15:35:38.927  4154  4154 I Weather_WeatherService: onReceive has processed, action: android.intent.action.SCREEN_OFF, Time(hour:min:sec) 15:35:38
+03-05 15:35:38.929   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.929   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.934 15396 21221 I LIA_Informant_SmartMomentTask: [BirthdayActionHandler] processing time in msec = 21
+03-05 15:35:38.934 15396 21221 I LIA_Informant_IntentTaskBase: onComplete() : success-true
+03-05 15:35:38.935 15396 15396 I LIA_Informant_LIAServiceBase: onResult - param
+03-05 15:35:38.935 15396 15396 I LIA_Informant_IntentManager: onCompleted() : intent is not null, startId-1
+03-05 15:35:38.935 15396 21215 I LIA_Informant_IntentManager: handleMessage() : msg - { when=0 what=2 arg1=1 obj=SmartMoment target=com.lge.ia.intenttask.IntentManager$IntentHandler }, thread - Thread[IntentManager,5,main]
+03-05 15:35:38.936 15396 15396 I LIA_Informant_IntentManager: close()
+03-05 15:35:38.936 15396 15396 I LIA_Informant_TaskAdaptor: close()
+03-05 15:35:38.936 15396 15396 I LIA_Informant_TaskContext: All app session of this task is finished : SmartMoment
+03-05 15:35:38.936 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] stop(SmartMoment)...... Request
+03-05 15:35:38.940 15396 21218 I LIA_Informant_IntentTaskBase: stop()...
+03-05 15:35:38.940 15396 21218 I LIA_Informant_SmartMomentTask: onStop
+03-05 15:35:38.940 15396 21218 I LIA_Informant_IntentTaskBase: stop()... done
+03-05 15:35:38.940 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] stop(SmartMoment)...... Success
+03-05 15:35:38.940 15396 15396 I LIA_Informant_TaskSession: -disable() - enable state : false, thread id : 2, thread name : main
+03-05 15:35:38.940 15396 15396 I LIA_Informant_TaskSession: clear() - enable state : false, thread id : 2, thread name : main
+03-05 15:35:38.940 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] destroy(SmartMoment)...... Request
+03-05 15:35:38.940 15396 21218 I LIA_Informant_IntentTaskBase: destroy()
+03-05 15:35:38.941 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Task State Transition] destroy(SmartMoment)...... Success
+03-05 15:35:38.946   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.946   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.948 15396 15396 I LIA_Informant_ConnectionProxyHandler: isContainAutoExecutionTask() : false, don't contain AutoExecution and Activation
+03-05 15:35:38.953 15396 15396 I LIA_Informant_ConnectionProxyHandler: close() : SmartMoment closed.
+03-05 15:35:38.953 15396 15396 I LIA_Informant_LGIntelligentAgent: tryFinishing ...
+03-05 15:35:38.953 15396 15396 I LIA_Informant_LIAIntentService: onDestroy()
+03-05 15:35:38.962   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.963   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.963   792  4173 E NxpTml  : _i2c_write() errno : 5
+03-05 15:35:38.964 15396 15396 I LIA_Informant_LogTracer: [Log Tracer - Service State Transition] onDestroy()...... 
+03-05 15:35:38.964 15396 15396 I LIA_Informant_LogCore: LIA Log Close() - prefix : LIA_Informant_
+03-05 15:35:38.979   792  4173 E NxpTml  : PN54X - Error in I2C Write.....
+03-05 15:35:38.979   792  4175 E NxpHal  : write error status = 0x1ff
+03-05 15:35:38.979   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.979   792   792 E NxpHal  : write_unlocked failed - PN54X Maybe in Standby Mode - Retry
+03-05 15:35:38.979   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:38.989  1862  2272 E WifiStateMachine: LG_RSSI UPDATE newRssi = -69
+03-05 15:35:38.993  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 15:35:38.993  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 15:35:38.994  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 2
+03-05 15:35:38.994  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 15:35:38.994  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-69,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:38.996   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:38.997   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.012   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.013   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.026  1862  2275 W IpManager.wlan0: RunningState:: msg what = 8
+03-05 15:35:39.029   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.029   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.046   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.046   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.062  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 2 lines
+03-05 15:35:39.063   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.063   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.080   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.080   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.090  3502  4139 E NxpNfcJni: nfaConnectionCallback: unknown event 38
+03-05 15:35:39.097   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.098   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.114   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.114   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.130   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.130   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.147   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.148   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.164   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.164   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.179  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 5 lines
+03-05 15:35:39.180   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.180   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.196   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.197   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.213   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.213   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.230   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.230   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.247   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.248  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 2 lines
+03-05 15:35:39.248   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.265   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.266   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.281   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.282   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.297   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.298   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.314   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.314   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.331   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.332   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.348   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.348   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.364   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.365   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.381  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 5 lines
+03-05 15:35:39.381   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.382   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.397   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.398   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.412  1862  2189 I ActivityManager: getAvailableExpressQueue#1. use ExBroadcastQueue : com.lge.android.intent.action.SHOW_AOD
+03-05 15:35:39.415   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.415  1862  1930 I AOD     : handler:SHOW_AOD AOD state: 2
+03-05 15:35:39.416   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.418   772   772 E vendor.lge.hardware.aod.aodpower@1.0-impl: File is not exist : /sys/class/graphics/fb0/cur_panel_mode
+03-05 15:35:39.418   772   772 E vendor.lge.hardware.aod.aodpower@1.0-impl: Unexpected AodCurPanelMode 93
+03-05 15:35:39.419  1862  1930 I AOD     : mPowerManagerEx.isUpdatableAOD() : true
+03-05 15:35:39.419   772   772 E vendor.lge.hardware.aod.aodpower@1.0-impl: File is not exist : /sys/class/graphics/fb0/cur_panel_mode
+03-05 15:35:39.420   772   772 E vendor.lge.hardware.aod.aodpower@1.0-impl: Unexpected AodCurPanelMode 93
+03-05 15:35:39.420  1862  1930 W PowerManagerServiceEx: start wakeUpForExtendedDisplay
+03-05 15:35:39.420  1862  1930 I PocketDetection: isDeviceInThePocket: wakeUpReason = wake_up_partial, pocketMonitoring = true, screenOffTimeout = 30000, realScreenOffTimeout = 30000, mPocketProximityEnabled = true, mLightEnabled = false, mPocketProximityPositive = false, mCurrentLuxforPocket = 4.0, mSensorCovered = false, mDeviceWakeUpDueToStateChanged = false, mIsScreenWakelockAcquired = false
+03-05 15:35:39.421  1862  1930 I PocketDetection: Pocket state : false
+03-05 15:35:39.421  1862  1930 I PowerManagerServiceEx: Partial waking up from sleep (uid 1000)...
+03-05 15:35:39.431  1862  1930 I AOD     : [onDisplayStateChangedCallback] mainLcd= false  extLcd= true
+03-05 15:35:39.431   825   825 E SurfaceFlinger: prepareFrame for display 0 failed: -2147483648 (Unknown error -2147483648)
+03-05 15:35:39.432   825   825 E HWComposer: presentAndGetReleaseFences: failed for display 0: NotValidated (7)
+03-05 15:35:39.434  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 0, mRequestPolicy = 100, mPowerState.getColorFadeLevel() = 0.0, mPowerState.getScreenState() = 4, mPowerState.getScreenBrightness() = 144, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:35:39.434  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (false,true)
+03-05 15:35:39.436   758  1238 I SDM     : DisplayBase::SetDisplayState: Set state = 2, display 0
+03-05 15:35:39.440  1862  1930 I AOD     : handler:SHOW_AOD: real delay: 1629
+03-05 15:35:39.440  1862  1930 I DisplayManagerService: Display device changed state: "Built-in Screen", DOZE
+03-05 15:35:39.443  1862  2349 I DisplayPowerControllerEx: [aod/alc] lux = 114.0, final brightness = 75
+03-05 15:35:39.445  1331  1370 I GBMv2   : PS:0
+03-05 15:35:39.447  1862  2349 I DisplayPowerControllerEx: Target value same as current brightness
+03-05 15:35:39.447  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 100, mRequestPolicy = 100, mPowerState.getColorFadeLevel() = 0.0, mPowerState.getScreenState() = 3, mPowerState.getScreenBrightness() = 144, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:35:39.447  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (false,true)
+03-05 15:35:39.459  1862  2207 I InputReader: Reconfiguring input devices.  changes=0x00000004
+03-05 15:35:39.460  2403  2403 I LowBatteryModeManager: onDisplayChanged: changed to false
+03-05 15:35:39.847  1862  2776 I chatty  : uid=1000(system) Binder:1862_8 identical 1 line
+03-05 15:35:39.935  1862  2776 I chatty  : uid=1000(system) Binder:1862_8 identical 1 line
+03-05 15:35:40.065  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 1 line
+03-05 15:35:40.165  1862  2776 I chatty  : uid=1000(system) Binder:1862_8 identical 1 line
+03-05 15:35:40.246 16658 20956 W YouTube : Could not register for notifications with InnerTube: 
+03-05 15:35:40.246 16658 20956 W YouTube : yob: java.util.concurrent.ExecutionException: bit: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:40.246 16658 20956 W YouTube : 	at ynr.b(SourceFile:20)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at adno.d(SourceFile:125)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at adnp.run(SourceFile:4)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at vcy.run(SourceFile:12)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at java.lang.Thread.run(Thread.java:764)
+03-05 15:35:40.246 16658 20956 W YouTube : Caused by: java.util.concurrent.ExecutionException: bit: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:40.246 16658 20956 W YouTube : 	at ancz.b(SourceFile:105)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at ancz.get(SourceFile:92)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at ynr.b(SourceFile:19)
+03-05 15:35:40.246 16658 20956 W YouTube : 	... 9 more
+03-05 15:35:40.246 16658 20956 W YouTube : Caused by: bit: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:40.246 16658 20956 W YouTube : 	at vnk.a(SourceFile:171)
+03-05 15:35:40.246 16658 20956 W YouTube : 	at vml.run(Unknown Source:2)
+03-05 15:35:40.246 16658 20956 W YouTube : 	... 4 more
+03-05 15:35:40.246 16658 20956 W YouTube : Caused by: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:40.246 16658 20956 W YouTube : 	at org.chromium.net.impl.CronetUrlRequest.onError(SourceFile:177)
+03-05 15:35:40.330  1862  2776 I chatty  : uid=1000(system) Binder:1862_8 identical 1 line
+03-05 15:35:40.558  1862  2776 I chatty  : uid=1000(system) Binder:1862_8 identical 1 line
+03-05 15:35:40.658  1862  2776 I chatty  : uid=1000(system) Binder:1862_8 identical 1 line
+03-05 15:35:40.756  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 1 line
+03-05 15:35:40.855  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 1 line
+03-05 15:35:40.954  1862  3717 I chatty  : uid=1000(system) Binder:1862_19 identical 1 line

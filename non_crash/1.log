@@ -1,0 +1,60 @@
+--------- beginning of main
+03-05 17:20:40.644   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=45757841912000)
+--------- beginning of system
+03-05 17:20:40.860  1862  2422 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main (has extras)} from uid 2000
+03-05 17:20:40.866  1332  1428 I PowerRM : System FW:0 IC:0 SO:0 GT:0 CAPP:3 APP:8
+03-05 17:20:40.914 28612 28612 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99179: Permission denied
+03-05 17:20:40.914 28612 28612 E Zygote  : createProcessGroup(99179, 0) failed: Permission denied
+03-05 17:20:40.914  1862  2422 I ActivityManager: Start proc 28612:com.android.chrome:sandboxed_process14/u0i179 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService14
+03-05 17:20:40.923 28612 28612 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 17:20:40.943 28612 28612 I SamplingProfilerIntegration: Profiling disabled.
+03-05 17:20:40.954 28625 28625 E asset   : setgid: Operation not permitted
+03-05 17:20:40.977 28627 28627 E asset   : setgid: Operation not permitted
+03-05 17:20:41.008 28612 28612 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 17:20:41.011 28612 28612 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 17:20:41.121  1862  1928 W RemoteFillService: Not handling { when=-3ms what=3 target=com.android.internal.os.HandlerCaller$MyHandler } as service for ComponentInfo{com.google.android.gms/com.google.android.gms.autofill.service.AutofillService} is already destroyed
+03-05 17:20:41.155 28612 28612 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 17:20:41.155 28612 28612 E Minikin : Could not get cmap table size!
+03-05 17:20:41.155 28612 28612 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 17:20:41.155 28612 28612 I HyLog   : I : FontManager creation successful.
+03-05 17:20:41.157 28612 28612 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 17:20:41.158 28612 28612 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 17:20:41.159 28612 28612 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 17:20:41.159 28612 28612 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 17:20:41.161 28612 28612 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 17:20:41.161 28612 28612 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 17:20:41.163 28612 28612 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 17:20:41.163 28612 28612 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 17:20:41.164 28612 28612 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 17:20:41.164 28612 28612 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 17:20:41.166 28612 28612 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 17:20:41.166 28612 28612 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 17:20:41.166 28612 28612 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 17:20:41.180 28612 28612 I cr_ChildProcessService: Creating new ChildProcessService pid=28612
+03-05 17:20:41.184 28612 28612 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 17:20:41.221 28612 28630 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 8384-8385)
+03-05 17:20:41.222 28612 28630 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 17:20:41.222 28612 28630 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 17:20:41.611  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:20:41.663  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 17:20:41.669  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 17:20:41.669  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 2
+03-05 17:20:41.669  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 17:20:41.669  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:20:41.673  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 17:20:41.674  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]
+03-05 17:20:41.676  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 17:20:41.677  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 17:20:42.126 27240 27915 E cr_Icing: reportPageVisit unsuccessful. Status Code: 15 Message: null
+03-05 17:20:42.615  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:20:44.155 27240 27915 E cr_Icing: reportPageVisit unsuccessful. Status Code: 15 Message: null
+03-05 17:20:44.620  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:20:45.687  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 17:20:45.690  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 17:20:45.690  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 3
+03-05 17:20:45.690  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 17:20:45.690  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:20:45.697  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 17:20:45.699  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 17:20:45.700  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 17:20:45.700  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]

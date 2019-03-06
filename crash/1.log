@@ -1,0 +1,152 @@
+--------- beginning of main
+--------- beginning of system
+03-05 17:19:19.304  1862  8662 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main (has extras)} from uid 2000
+03-05 17:19:19.312  1332  1428 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+03-05 17:19:19.312  1332  1428 E PowerRM : found 42, mode set to 0
+03-05 17:19:19.312  1332  1428 I PowerRM : FIA lock1 locked
+03-05 17:19:19.315  1862  8662 I chatty  : uid=1000(system) Binder:1862_1C identical 1 line
+03-05 17:19:19.317  1324  1492 I ThermalEngine: Thermal-Server: Thermal received msg from  tmr
+03-05 17:19:19.317  3783  3783 I [LGHome6]LauncherCallbacksImpl: Launcher.onPause // 7.0.33(70003300) this:com.lge.launcher3.LauncherExtension$LauncherCallbacksImpl@6e8823f
+03-05 17:19:19.317  1324  1492 I TMR     : C0.0
+03-05 17:19:19.317  1324  1492 E TMR     : acquire_thermal_recovery: rsrc=0, target_freq=1766400
+03-05 17:19:19.317  1324  1492 I TMR     : C1.0
+03-05 17:19:19.317  1324  1492 E TMR     : acquire_thermal_recovery: rsrc=1, target_freq=2803200
+03-05 17:19:19.317  1332 28409 I Thermal-Lib: Thermal-Lib-Client: Client request sent
+03-05 17:19:19.340  1332  1428 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+03-05 17:19:19.340  1332  1428 E PowerRM : found 42, mode set to 0
+03-05 17:19:19.355  1862  2422 I ActivityManager: Start proc 28412:com.android.chrome:sandboxed_process12/u0i177 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService12
+03-05 17:19:19.355 28412 28412 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99177: Permission denied
+03-05 17:19:19.355 28412 28412 E Zygote  : createProcessGroup(99177, 0) failed: Permission denied
+03-05 17:19:19.362 28412 28412 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 17:19:19.372  1862  2422 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from uid/pid 10205/27240 clientId=android.media.AudioManagerEx@ed15837org.chromium.content.browser.AudioFocusDelegate@a4d4be0
+03-05 17:19:19.374 28412 28412 I SamplingProfilerIntegration: Profiling disabled.
+03-05 17:19:19.380 10054 10068 I PartnerBrowserCustomizationProvider: PartnerBookmarkReader: uri = content://com.android.partnerbrowsercustomizations/disableincognitomode
+03-05 17:19:19.381 10054 11083 I PartnerBrowserCustomizationProvider: PartnerBookmarkReader: uri = content://com.android.partnerbrowsercustomizations/disablebookmarksediting
+03-05 17:19:19.382 10054 11083 I PartnerBrowserCustomizationProvider: If disableEdit set to 1, Bookmarks are not editable, disableEdit :0
+03-05 17:19:19.383 28425 28425 E asset   : setgid: Operation not permitted
+03-05 17:19:19.385 10054 11083 I PartnerBrowserCustomizationProvider: PartnerBookmarkReader: uri = content://com.android.partnerbrowsercustomizations/homepage
+03-05 17:19:19.385 10054 11083 I PARTNER_PARSER: Profile name :browser_config
+03-05 17:19:19.385 10054 11083 I PARTNER_PARSER: Try to search [browser_config] and id is [2130903043]
+03-05 17:19:19.385 10054 11083 I PARTNER_PARSER: no matched profile
+03-05 17:19:19.385 10054 11083 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 17:19:19.385 10054 11083 I PARTNER_PARSER: Duration of Profile parsing = 0
+03-05 17:19:19.387 10054 11083 I PARTNER_PARSER: Try to search [browser_config_open_eu] and id is [2130903044]
+03-05 17:19:19.387 10054 11083 I PARTNER_PARSER: no matched profile
+03-05 17:19:19.387 10054 11083 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 17:19:19.387 10054 11083 I PARTNER_PARSER: Duration of Profile parsing = 1
+03-05 17:19:19.387 10054 11083 I PARTNER_PARSER: use default Profile
+03-05 17:19:19.390  2403  2403 I NavigationThemeResource: notify navigation bar color(0xffffffff)
+03-05 17:19:19.391  2403  2403 I NavigationThemeResource: NavigationKey Color is changed(WHITE_WITH_BORDER -> BLACK)
+03-05 17:19:19.391  2403  2403 I NavigationThemeResource:  BarMode=4, Theme=WHITE, LightBackground=true (NOT Transparent)
+03-05 17:19:19.391  2403  2403 I NavigationThemeResource: , Keyguard show=false, IME shown=false, Bar vertical=false, Panel expanded=false
+03-05 17:19:19.391 10054 11083 I PARTNER_PARSER: homepage is https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 17:19:19.391 10054 11083 I PartnerBrowserCustomizationProvider: homepage set from getOperator : OPEN
+03-05 17:19:19.391 10054 11083 I PARTNER_SimInfo: isMultiSimEnabled = true
+03-05 17:19:19.391  1332  1428 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+03-05 17:19:19.392  1332  1428 E PowerRM : found 42, mode set to 0
+03-05 17:19:19.392  1332  1428 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:8
+03-05 17:19:19.392  1332  1428 E PowerRM : found 42, mode set to 0
+03-05 17:19:19.392  1332  1428 I PowerRM : System FW:0 IC:0 SO:0 GT:0 CAPP:-1 APP:8
+03-05 17:19:19.392  1332  1428 I PowerRM : FIA lock1 unlocked
+03-05 17:19:19.392  1332  1430 I PowerRM : Grant Setting Acceptor[3] Grant[1]
+03-05 17:19:19.397  1862  8662 I ActivityManager: Process com.android.chrome:sandboxed_process11 (pid 28197) has died: cch  CACC
+03-05 17:19:19.398  1862  8662 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService11 in 1000ms
+03-05 17:19:19.399  1862  1924 W zygote64: failed to open /acct/uid_99176/pid_28197/cgroup.procs: No such file or directory
+03-05 17:19:19.403 28428 28428 E asset   : setgid: Operation not permitted
+03-05 17:19:19.403  3026  3026 I InCall  : InCallApp - onTrimMemory: 5
+03-05 17:19:19.404  2364  2364 I Telecom : TelecomApp: onTrimMemory: 5
+03-05 17:19:19.404  2364  2364 I Telecom : TelecomApp: trim memory
+03-05 17:19:19.407  2749  2749 I LGIMS_IMSManager: onTrimMemory :: level=5
+03-05 17:19:19.411  2749  2749 I zygote64: Explicit concurrent copying GC freed 109(35KB) AllocSpace objects, 0(0B) LOS objects, 96% free, 479KB/12MB, paused 95us total 3.660ms
+03-05 17:19:19.415  3026  3026 I zygote64: Explicit concurrent copying GC freed 34(48KB) AllocSpace objects, 0(0B) LOS objects, 96% free, 465KB/12MB, paused 161us total 11.432ms
+03-05 17:19:19.416  2364  2364 I zygote64: Explicit concurrent copying GC freed 706(64KB) AllocSpace objects, 0(0B) LOS objects, 96% free, 498KB/12MB, paused 247us total 12.181ms
+03-05 17:19:19.419 15784 15784 I Finsky  : [2] com.google.android.finsky.dd.d.onTrimMemory(3): Memory trim requested to level 5
+03-05 17:19:19.420 26133 27740 I PBSessionCacheImpl: Deleted sessionId[114935701251234324] from persistence.
+03-05 17:19:19.421 26133 26161 W SearchServiceCore: Abort, client detached.
+03-05 17:19:19.422 10054 11083 E PARTNER_SimInfo: it does not exist mcc and mnc
+03-05 17:19:19.423 26133 26161 I WorkerManager: dispose()
+03-05 17:19:19.423 26133 26161 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+03-05 17:19:19.423 26133 26161 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=microdetection::q, WorkerId=microdetection, id=dcf46ab}
+03-05 17:19:19.425 27240 27273 W cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=28197
+03-05 17:19:19.425 27240 27240 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@77ec58b time:45676623
+03-05 17:19:19.426 27240 27273 I cr_BindingManager: onTrimMemory: level=5, size=0
+03-05 17:19:19.427 10054 11083 I PARTNER_PARSER: Profile name :browser_config
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: Try to search [browser_config] and id is [2130903043]
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: no matched profile
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: Duration of Profile parsing = 0
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: Try to search [browser_config_open_eu] and id is [2130903044]
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: no matched profile
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: Duration of Profile parsing = 0
+03-05 17:19:19.428 10054 11083 I PARTNER_PARSER: use default Profile
+03-05 17:19:19.429 28412 28412 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 17:19:19.429   825   959 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=27240, uid<=10205
+03-05 17:19:19.429 27240 27240 E BpSurfaceComposerClient: Failed to transact (-1)
+03-05 17:19:19.429   825  1652 E SurfaceFlinger: Permission Denial: can't openGlobalTransaction pid=27240, uid<=10205
+03-05 17:19:19.429 27240 27240 E BpSurfaceComposerClient: Failed to transact (-1)
+03-05 17:19:19.432 28412 28412 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 17:19:19.433 21663 21663 I zygote  : Explicit concurrent copying GC freed 7(32KB) AllocSpace objects, 0(0B) LOS objects, 86% free, 656KB/4MB, paused 379us total 13.891ms
+03-05 17:19:19.434 10054 11083 I PARTNER_PARSER: homepage is https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 17:19:19.434 10054 11083 I PartnerBrowserCustomizationProvider: homepage read from PRI xml
+03-05 17:19:19.434 10054 11083 I PARTNER_PARSER: clientId is android-lge-rev1, isRevenueShareApplied = true
+03-05 17:19:19.434 10054 11083 I PartnerBrowserCustomizationProvider: RevenueShare Homepage : https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 17:19:19.434 10054 11083 I PartnerBrowserCustomizationProvider: readHomeUrlFromAutoProfile : https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 17:19:19.434 10054 11083 I PartnerBrowserCustomizationProvider: getBrowserHomepage node https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 17:19:19.440  2762  2762 I zygote64: Explicit concurrent copying GC freed 7630(496KB) AllocSpace objects, 0(0B) LOS objects, 83% free, 2MB/14MB, paused 260us total 37.124ms
+03-05 17:19:19.446  2403 11876 I SystemServicesProxy: RecentApps has 8 item(s).
+03-05 17:19:19.463 21663 21663 I zygote  : Explicit concurrent copying GC freed 6(32KB) AllocSpace objects, 0(0B) LOS objects, 86% free, 656KB/4MB, paused 352us total 14.812ms
+03-05 17:19:19.556 28412 28412 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 17:19:19.556 28412 28412 E Minikin : Could not get cmap table size!
+03-05 17:19:19.556 28412 28412 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 17:19:19.556 28412 28412 I HyLog   : I : FontManager creation successful.
+03-05 17:19:19.558 28412 28412 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 17:19:19.558 28412 28412 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 17:19:19.560 28412 28412 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 17:19:19.560 28412 28412 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 17:19:19.562 28412 28412 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 17:19:19.562 28412 28412 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 17:19:19.564 28412 28412 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 17:19:19.564 28412 28412 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 17:19:19.565 28412 28412 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 17:19:19.565 28412 28412 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 17:19:19.567 28412 28412 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 17:19:19.567 28412 28412 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 17:19:19.567 28412 28412 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 17:19:19.578 28412 28412 I cr_ChildProcessService: Creating new ChildProcessService pid=28412
+03-05 17:19:19.581 28412 28412 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 17:19:19.599 28412 28434 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 6779-6780)
+03-05 17:19:19.599 28412 28434 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 17:19:19.600 28412 28434 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 17:19:19.810  3783  3783 I [LGHome6]EditModeOffManager: EditModeOffManager is not running
+03-05 17:19:19.810 26133 26133 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+03-05 17:19:19.856  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-65,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:19:19.932   810   943 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: updated /sys/class/scsi_host/host0/../../../clkscale_enable with 1
+03-05 17:19:19.932   810   943 E ANDR-PERF-OPTSHANDLER:  return value 2
+03-05 17:19:20.130 27240 27292 W chromium: [WARNING:monitor.cc(420)] Request to https://beacons.gcp.gvt2.com/domainreliability/upload had (at least) two NEL headers: "{"failure_fraction":1" and ""include_subdomains":false".
+03-05 17:19:20.386  1479  1479 E MSM-irqbalance: IRQ 82 not found in internal structure or should be ignored
+03-05 17:19:20.869  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 17:19:20.874  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 17:19:20.875  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 3
+03-05 17:19:20.875  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 17:19:20.875  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:19:20.883  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 17:19:20.885  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]
+03-05 17:19:20.887  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 17:19:20.887  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 17:19:21.328  1324  1492 I ThermalEngine: Thermal-Server: Thermal received msg from  tmr
+03-05 17:19:21.328  1324  1492 I TMR     : C0.10
+03-05 17:19:21.328  1324  1492 E TMR     : release_thermal_recovery: tmr_state[0]->stored_freq=-1, tmr_state[0]->current_freq=-1
+03-05 17:19:21.328  1324  1492 I TMR     : C1.10
+03-05 17:19:21.328  1324  1492 E TMR     : release_thermal_recovery: tmr_state[1]->stored_freq=-1, tmr_state[1]->current_freq=-1
+03-05 17:19:21.329  1332 28450 I Thermal-Lib: Thermal-Lib-Client: Client request sent
+03-05 17:19:21.352  1331  1372 I GBMv2   : GBM state [6]
+03-05 17:19:21.353  1331  1372 E GBMv2   : FPS Scaler: EXP
+03-05 17:19:21.867  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:19:21.907   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=45679105290000)
+03-05 17:19:21.924   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=45679121702000)
+03-05 17:19:22.871  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:19:22.911   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=45680108434000)
+03-05 17:19:23.877  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 17:19:23.914   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=45681111658000)
+03-05 17:19:23.930   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=45681128387000)

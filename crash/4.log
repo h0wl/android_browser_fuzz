@@ -1,0 +1,372 @@
+--------- beginning of main
+03-05 14:56:37.368  1862  1924 W zygote64: failed to open /acct/uid_99008/pid_10577/cgroup.procs: No such file or directory
+03-05 14:56:37.371  1862  1924 W zygote64: failed to open /acct/uid_99007/pid_10529/cgroup.procs: No such file or directory
+03-05 14:56:37.372  1862  1924 W zygote64: failed to open /acct/uid_99006/pid_10470/cgroup.procs: No such file or directory
+--------- beginning of system
+03-05 14:56:37.387  1862  2791 I ActivityManager: Killing 14419:com.android.chrome:sandboxed_process16/u0a205i44 (adj 904): remove task
+03-05 14:56:37.388  1862  2791 I ActivityManager: Killing 14442:com.android.chrome:sandboxed_process17/u0a205i45 (adj 904): remove task
+03-05 14:56:37.388  1862  2791 I ActivityManager: Killing 11345:com.android.chrome:sandboxed_process18/u0a205i18 (adj 906): remove task
+03-05 14:56:37.388  1862  2791 I ActivityManager: Killing 11429:com.android.chrome:sandboxed_process19/u0a205i19 (adj 906): remove task
+03-05 14:56:37.388  1862  2791 I ActivityManager: Killing 14568:com.android.chrome:sandboxed_process20/u0a205i47 (adj 902): remove task
+03-05 14:56:37.389  1862  2791 I ActivityManager: Killing 14626:com.android.chrome:sandboxed_process21/u0a205i48 (adj 902): remove task
+03-05 14:56:37.389  1862  2791 I ActivityManager: Killing 12090:com.android.chrome:sandboxed_process22/u0a205i22 (adj 906): remove task
+03-05 14:56:37.389  1862  2791 I ActivityManager: Killing 12351:com.android.chrome:sandboxed_process23/u0a205i23 (adj 906): remove task
+03-05 14:56:37.390  1862  2791 I ActivityManager: Killing 12396:com.android.chrome:sandboxed_process24/u0a205i24 (adj 906): remove task
+03-05 14:56:37.390  1862  2791 I ActivityManager: Killing 12444:com.android.chrome:sandboxed_process25/u0a205i25 (adj 906): remove task
+03-05 14:56:37.391  1862  2791 I ActivityManager: Killing 12491:com.android.chrome:sandboxed_process26/u0a205i26 (adj 906): remove task
+03-05 14:56:37.391  1862  2791 I ActivityManager: Killing 14672:com.android.chrome:sandboxed_process27/u0a205i49 (adj 902): remove task
+03-05 14:56:37.391  1862  2791 I ActivityManager: Killing 12679:com.android.chrome:sandboxed_process28/u0a205i28 (adj 900): remove task
+03-05 14:56:37.392  1862  2791 I ActivityManager: Killing 14979:com.android.chrome:sandboxed_process29/u0a205i54 (adj 900): remove task
+03-05 14:56:37.392  1862  2791 I ActivityManager: Killing 15040:com.android.chrome:sandboxed_process30/u0a205i55 (adj 900): remove task
+03-05 14:56:37.392  1862  2791 I ActivityManager: Killing 13097:com.android.chrome:sandboxed_process31/u0a205i31 (adj 906): remove task
+03-05 14:56:37.393  1862  2791 I ActivityManager: Killing 13179:com.android.chrome:sandboxed_process32/u0a205i32 (adj 906): remove task
+03-05 14:56:37.393  1862  2791 I ActivityManager: Killing 13228:com.android.chrome:sandboxed_process33/u0a205i33 (adj 906): remove task
+03-05 14:56:37.393  1862  2791 I ActivityManager: Killing 13302:com.android.chrome:sandboxed_process34/u0a205i34 (adj 906): remove task
+03-05 14:56:37.394  1862  2791 I ActivityManager: Killing 13405:com.android.chrome:sandboxed_process35/u0a205i35 (adj 906): remove task
+03-05 14:56:37.394  1862  2791 I ActivityManager: Killing 13460:com.android.chrome:sandboxed_process36/u0a205i36 (adj 906): remove task
+03-05 14:56:37.394  1862  2791 I ActivityManager: Killing 13504:com.android.chrome:sandboxed_process37/u0a205i37 (adj 906): remove task
+03-05 14:56:37.395  1862  2791 I ActivityManager: Killing 13881:com.android.chrome:sandboxed_process39/u0a205i39 (adj 906): remove task
+03-05 14:56:37.395  1862  2791 I ActivityManager: Killing 13953:com.android.chrome:sandboxed_process1/u0a205i40 (adj 906): remove task
+03-05 14:56:37.396  1862  2791 I ActivityManager: Killing 13997:com.android.chrome:sandboxed_process2/u0a205i41 (adj 904): remove task
+03-05 14:56:37.396  1862  2791 I ActivityManager: Killing 10622:com.android.chrome:sandboxed_process9/u0a205i9 (adj 906): remove task
+03-05 14:56:37.462  2403  2923 I SystemServicesProxy: RecentApps has 7 item(s).
+03-05 14:56:37.495  2403  2591 I SystemServicesProxy: RecentApps has 7 item(s).
+03-05 14:56:37.543  2403  2923 I SystemServicesProxy: Task.thumbnail loading failed for 189
+03-05 14:56:37.562  1862  3611 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+03-05 14:56:37.566  1332  1428 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+03-05 14:56:37.566  1332  1428 E PowerRM : found 42, mode set to 0
+03-05 14:56:37.566  1332  1428 I PowerRM : FIA lock1 locked
+03-05 14:56:37.580  2881  2881 W MainApplication: onReceive intent : Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+03-05 14:56:37.581  2403  2631 I AbsQuickSettingsHandlerBase: Got action android.intent.action.BATTERY_CHANGED for BATTERY_SAVER
+03-05 14:56:37.582  1862  1922 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{727e705 u-1 android.intent.action.BATTERY_CHANGED} to ReceiverList{184b472 4462 com.google.android.youtube/10235/u0 remote:9d97d7d}: process gone or crashing
+03-05 14:56:37.582  1862  1922 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{727e705 u-1 android.intent.action.BATTERY_CHANGED} to ReceiverList{f42bb38 8342 com.facebook.katana/10240/u0 remote:f1feb9b}: process gone or crashing
+03-05 14:56:37.582  1862  1922 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{727e705 u-1 android.intent.action.BATTERY_CHANGED} to ReceiverList{8061a0 8788 com.facebook.orca/10246/u0 remote:55c0aa3}: process gone or crashing
+03-05 14:56:37.582  1862  3668 W ActivityManager: Sending non-protected broadcast com.lge.intent.action.FLOATING_WINDOW_EXIT_LOWPROFILE from system 2403:com.android.systemui/u0a152 pkg com.android.systemui
+03-05 14:56:37.583  1862  3668 W ActivityManager: Sending non-protected broadcast com.lge.intent.action.FLOATING_WINDOW_EXIT_LOWPROFILE from system 2403:com.android.systemui/u0a152 pkg com.android.systemui
+03-05 14:56:37.597  2403  2403 I LGPowerUI: onReceive = android.intent.action.BATTERY_CHANGED
+03-05 14:56:37.597  2403  2403 I LGPowerUI: level = 100, plugType = 2, plugged = true, charging = false, temperature = 316, chargingCurrent = 0, factoryCableItem = 0, isFastCharging = false, batteryID = 1
+03-05 14:56:37.597  2403  2403 I LowBatteryModeManager: applyCmrMode() enabled: false batteryLevel: 100
+03-05 14:56:37.598  1862  3588 I DisplayPowerControllerEx: requested BacklightDimming target[-1]
+03-05 14:56:37.598  2403  2403 I LowBatteryModeManager: setCmrMode(false)
+03-05 14:56:37.598  2403  2403 I QSlideListController: setLowProfile : false from com.android.systemui
+03-05 14:56:37.609  1862  3668 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService8 in 1000ms
+03-05 14:56:37.613  1862  2159 I WindowManager: Starting window displayed
+03-05 14:56:37.617  1862  3668 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService6 in 10992ms
+03-05 14:56:37.622  1862  2780 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService7 in 20987ms
+03-05 14:56:37.626  2403  2403 I NavigationThemeResource: notify navigation bar color(0xffffffff)
+03-05 14:56:37.626  2403  2403 I NavigationThemeResource: NavigationKey Color is changed(WHITE_WITH_BORDER -> BLACK)
+03-05 14:56:37.626  2403  2403 I NavigationThemeResource:  BarMode=4, Theme=WHITE, LightBackground=true (NOT Transparent)
+03-05 14:56:37.626  2403  2403 I NavigationThemeResource: , Keyguard show=false, IME shown=false, Bar vertical=false, Panel expanded=false
+03-05 14:56:37.630  1862  2780 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0 in 30979ms
+03-05 14:56:37.639  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-57,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 14:56:37.658  3472  3472 I MusicController: [MediaSessionMonitor.java:153:onActiveSessionsChanged()] oooooo 
+03-05 14:56:37.658  3472  3472 I MusicController: [MediaSessionMonitor.java:302:clear()] oooooo 
+03-05 14:56:37.658  3472  3472 W MusicController: [MediaSessionMonitor.java:171:updateMediaControllers()] oooooo Controller is empty
+03-05 14:56:37.658  3472  3472 I MusicController: [MusicControllerManager.java:144:updatePlayerInformation()] oooooo 
+03-05 14:56:37.659  3472  3472 I MusicController: [MusicControllerManager.java:170:updatePlayerInformation()] oooooo Is need View update : true
+03-05 14:56:37.659  3472  3472 I MusicController: [MusicControllerService.java:309:updateWidget()] oooooo 
+03-05 14:56:37.659  3472  3472 I MusicController: [MusicControllerManager.java:201:isValidForUpdate()] oooooo mMusicControllerInfo is null
+03-05 14:56:37.659  3472  3472 I MusicController: [MusicControllerViewBase.java:61:updateWidgetToDefault()] oooooo 
+03-05 14:56:37.663  3604  3604 I LgeAppWidgetHostView: SignBoard will work with Changeable Density.
+03-05 14:56:37.663  3604  3604 I LgeAppWidgetHostView: SignBoard will work with Changeable Density.
+03-05 14:56:37.663  3604  3604 I LgeRemoteViews: SignBoard will work with Changeable Density.
+03-05 14:56:37.663  3604  3604 I LgeRemoteViews: SignBoard will work with Changeable Density.
+03-05 14:56:37.663  1862  2780 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService12 in 40946ms
+03-05 14:56:37.680  1862  2780 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService15 in 50929ms
+03-05 14:56:37.698  2403  2923 I SystemServicesProxy: RecentApps has 8 item(s).
+03-05 14:56:37.718  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 14:56:37.718  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 3
+03-05 14:56:37.718  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 14:56:37.718  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-51,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 14:56:37.719  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 14:56:37.721  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 14:56:37.722  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]
+03-05 14:56:37.722  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 14:56:37.722  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 14:56:37.773  1862  2780 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService13 in 60836ms
+03-05 14:56:37.779  1862  2780 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService18 in 70830ms
+03-05 14:56:37.816  1862  2780 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService21 in 80793ms
+03-05 14:56:37.821  1862  3586 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService17 in 90788ms
+03-05 14:56:37.826  1862  2776 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService10 in 100783ms
+03-05 14:56:37.832  1862  2389 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService28 in 110777ms
+03-05 14:56:37.837  1862  3582 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService36 in 120772ms
+03-05 14:56:37.841  1862  3586 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService1 in 130768ms
+03-05 14:56:37.847  1862  2776 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService25 in 140763ms
+03-05 14:56:37.852  1862 13087 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService16 in 150758ms
+03-05 14:56:37.856  1862 13087 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService20 in 160753ms
+03-05 14:56:37.862  1862  3586 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService11 in 170747ms
+03-05 14:56:37.866  1862  2206 W InputDispatcher: channel 'e73d9a6 com.android.chrome/com.google.android.apps.chrome.Main (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+03-05 14:56:37.866  1862  2206 E InputDispatcher: channel 'e73d9a6 com.android.chrome/com.google.android.apps.chrome.Main (server)' ~ Channel is unrecoverably broken and will be disposed!
+03-05 14:56:37.867  1862  2389 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService19 in 180743ms
+03-05 14:56:37.867  1862  2296 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=63, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+03-05 14:56:37.868  1862  2296 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=61, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+03-05 14:56:37.868  1862  3611 I WindowManager: WIN DEATH: Window{e73d9a6 u0 com.android.chrome/com.google.android.apps.chrome.Main}
+03-05 14:56:37.868  1862  3611 W InputDispatcher: Attempted to unregister already unregistered input channel 'e73d9a6 com.android.chrome/com.google.android.apps.chrome.Main (server)'
+03-05 14:56:37.873  1862 13087 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService14 in 190737ms
+03-05 14:56:37.878  1862  3582 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService23 in 200732ms
+03-05 14:56:37.879  1862  2296 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=73, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+03-05 14:56:37.922  1862  2732 I ActivityManager: Start proc 15143:com.android.chrome/u0a205 for activity com.android.chrome/com.google.android.apps.chrome.Main
+03-05 14:56:37.932 15143 15143 W zygote  : Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 14:56:37.964  1862  2296 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=75, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+03-05 14:56:37.973  1862  1930 W ActivityManager: setHasOverlayUi called on unknown pid: 30664
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99010/pid_10676/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99011/pid_11102/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99012/pid_11159/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99053/pid_14917/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99042/pid_14094/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99046/pid_14523/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99044/pid_14419/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99045/pid_14442/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99018/pid_11345/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99019/pid_11429/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99047/pid_14568/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99048/pid_14626/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99022/pid_12090/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99023/pid_12351/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99024/pid_12396/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99025/pid_12444/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99026/pid_12491/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99049/pid_14672/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99028/pid_12679/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99054/pid_14979/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99055/pid_15040/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99031/pid_13097/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99032/pid_13179/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99033/pid_13228/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99034/pid_13302/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99035/pid_13405/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99036/pid_13460/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99037/pid_13504/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99039/pid_13881/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99040/pid_13953/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99041/pid_13997/cgroup.procs: No such file or directory
+03-05 14:56:37.979  1862  1924 W zygote64: failed to open /acct/uid_99009/pid_10622/cgroup.procs: No such file or directory
+03-05 14:56:38.049 15143 15189 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+03-05 14:56:38.069 15143 15189 W zygote  : Skipping duplicate class check due to unrecognized classloader
+03-05 14:56:38.071 15143 15197 I cr_LibraryLoader: Time to load native libraries: 20 ms (timestamps 5249-5269)
+03-05 14:56:38.072 15143 15189 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+03-05 14:56:38.072 15143 15197 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 14:56:38.072 15143 15189 I DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+03-05 14:56:38.072 15143 15197 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 14:56:38.085 15143 15189 W zygote  : Skipping duplicate class check due to unrecognized classloader
+03-05 14:56:38.098 15143 15190 I cr_ui   : Using UI locale en, system locale: en (Android name: en)
+03-05 14:56:38.098 15143 15190 I cr_ui   : Missing asset file: locales#lang_en/en-US.pak
+03-05 14:56:38.098 15143 15190 I cr_ui   : Found asset file: locales/en-GB.pak
+03-05 14:56:38.098 15143 15190 I cr_ui   : Using app bundle locale directory: locales
+03-05 14:56:38.098 15143 15190 I cr_ui   : UI Language: en requires .pak files: [en-GB, en-US]
+03-05 14:56:38.101 15143 15191 I cr_tabmodel: Starting to fetch tab list for tab_state0
+03-05 14:56:38.101 15143 15189 I cr_tabmodel: Starting to fetch tab list for tab_state1
+03-05 14:56:38.101 15143 15189 I cr_tabmodel: State file does not exist.
+03-05 14:56:38.101 15143 15189 I cr_tabmodel: Starting to fetch tab list for tab_state_browser_actions
+03-05 14:56:38.101 15143 15189 I cr_tabmodel: State file does not exist.
+03-05 14:56:38.101 15143 15191 I cr_tabmodel: Finished fetching tab list.
+03-05 14:56:38.106 10054 10859 I PartnerBrowserCustomizationProvider: PartnerBookmarkReader: uri = content://com.android.partnerbrowsercustomizations/disableincognitomode
+03-05 14:56:38.111 10054 10859 I PartnerBrowserCustomizationProvider: PartnerBookmarkReader: uri = content://com.android.partnerbrowsercustomizations/disablebookmarksediting
+03-05 14:56:38.111 10054 10859 I PartnerBrowserCustomizationProvider: If disableEdit set to 1, Bookmarks are not editable, disableEdit :0
+03-05 14:56:38.113 10054 10859 I PartnerBrowserCustomizationProvider: PartnerBookmarkReader: uri = content://com.android.partnerbrowsercustomizations/homepage
+03-05 14:56:38.114 10054 10859 I PARTNER_PARSER: Profile name :browser_config
+03-05 14:56:38.114 10054 10859 I PARTNER_PARSER: Try to search [browser_config] and id is [2130903043]
+03-05 14:56:38.114 10054 10859 I PARTNER_PARSER: no matched profile
+03-05 14:56:38.114 10054 10859 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 14:56:38.114 10054 10859 I PARTNER_PARSER: Duration of Profile parsing = 0
+03-05 14:56:38.114 10054 10859 I PARTNER_PARSER: Try to search [browser_config_open_eu] and id is [2130903044]
+03-05 14:56:38.114 10054 10859 I PARTNER_PARSER: no matched profile
+03-05 14:56:38.115 10054 10859 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 14:56:38.115 10054 10859 I PARTNER_PARSER: Duration of Profile parsing = 0
+03-05 14:56:38.115 10054 10859 I PARTNER_PARSER: use default Profile
+03-05 14:56:38.116 15143 15202 W cr_ChildProcLH: Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+03-05 14:56:38.124 15203 15203 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99056: Permission denied
+03-05 14:56:38.124 15203 15203 E Zygote  : createProcessGroup(99056, 0) failed: Permission denied
+03-05 14:56:38.125  1862  2389 I ActivityManager: Start proc 15203:com.android.chrome:sandboxed_process0/u0i56 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService0
+03-05 14:56:38.125 10054 10859 I PARTNER_PARSER: homepage is https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 14:56:38.125 10054 10859 I PartnerBrowserCustomizationProvider: homepage set from getOperator : OPEN
+03-05 14:56:38.125 10054 10859 I PARTNER_SimInfo: isMultiSimEnabled = true
+03-05 14:56:38.131 15203 15203 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 14:56:38.135 10054 10859 E PARTNER_SimInfo: it does not exist mcc and mnc
+03-05 14:56:38.136 10054 10859 I PARTNER_PARSER: Profile name :browser_config
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: Try to search [browser_config] and id is [2130903043]
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: no matched profile
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: Duration of Profile parsing = 0
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: Try to search [browser_config_open_eu] and id is [2130903044]
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: no matched profile
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: Try to search [bookmark_foldername_config] and id is [2130903042]
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: Duration of Profile parsing = 0
+03-05 14:56:38.137 10054 10859 I PARTNER_PARSER: use default Profile
+03-05 14:56:38.141 10054 10859 I PARTNER_PARSER: homepage is https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 14:56:38.141 10054 10859 I PartnerBrowserCustomizationProvider: homepage read from PRI xml
+03-05 14:56:38.141 10054 10859 I PARTNER_PARSER: clientId is android-lge-rev1, isRevenueShareApplied = true
+03-05 14:56:38.141 10054 10859 I PartnerBrowserCustomizationProvider: RevenueShare Homepage : https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 14:56:38.141 10054 10859 I PartnerBrowserCustomizationProvider: readHomeUrlFromAutoProfile : https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 14:56:38.141 10054 10859 I PartnerBrowserCustomizationProvider: getBrowserHomepage node https://www.google.com/webhp?client=ms-android-lge-rev1&source=android-home
+03-05 14:56:38.142  1332  1428 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+03-05 14:56:38.143  1332  1428 E PowerRM : found 42, mode set to 0
+03-05 14:56:38.143  1332  1428 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:8
+03-05 14:56:38.143  1332  1428 E PowerRM : found 42, mode set to 0
+03-05 14:56:38.143  1332  1428 I PowerRM : System FW:0 IC:0 SO:0 GT:0 CAPP:-1 APP:8
+03-05 14:56:38.143  1332  1428 I PowerRM : FIA lock1 unlocked
+03-05 14:56:38.143  1332  1430 I PowerRM : Grant Setting Acceptor[3] Grant[1]
+03-05 14:56:38.143 15143 15201 I Adreno  : QUALCOMM build                   : f7a1ec7, I3fc3098c09
+03-05 14:56:38.143 15143 15201 I Adreno  : Build Date                       : 04/20/18
+03-05 14:56:38.143 15143 15201 I Adreno  : OpenGL ES Shader Compiler Version: EV031.23.00.04
+03-05 14:56:38.143 15143 15201 I Adreno  : Local Branch                     : 
+03-05 14:56:38.143 15143 15201 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.3.C2.08.00.00.435.090
+03-05 14:56:38.143 15143 15201 I Adreno  : Remote Branch                    : NONE
+03-05 14:56:38.143 15143 15201 I Adreno  : Reconstruct Branch               : NOTHING
+03-05 14:56:38.144 15203 15203 I SamplingProfilerIntegration: Profiling disabled.
+03-05 14:56:38.151 15143 15201 I Adreno  : PFP: 0x016ee155, ME: 0x00000000
+03-05 14:56:38.153 15143 15201 I OpenGLRenderer: Initialized EGL, version 1.4
+03-05 14:56:38.154 15218 15218 E asset   : setgid: Operation not permitted
+03-05 14:56:38.169 15221 15221 E asset   : setgid: Operation not permitted
+03-05 14:56:38.174  1862  1930 I ActivityManager: Displayed com.android.chrome/com.google.android.apps.chrome.Main: +588ms (total +46m59s463ms)
+03-05 14:56:38.185 15143 15143 I cr_BrowserStartup: Initializing chromium process, singleProcess=false
+03-05 14:56:38.190 15203 15203 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 14:56:38.193 15203 15203 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 14:56:38.238  1862  3706 I ActivityManager: Start proc 15239:com.android.chrome:privileged_process0/u0a205 for service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0
+03-05 14:56:38.247 15239 15239 W zygote  : Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 14:56:38.276 15239 15239 I cr_ChildProcessService: Creating new ChildProcessService pid=15239
+03-05 14:56:38.286 15143 15143 W cr_KnoxSettingsProvider: Permission to read device policy denied.
+03-05 14:56:38.297 15239 15257 I cr_LibraryLoader: Time to load native libraries: 2 ms (timestamps 5493-5495)
+03-05 14:56:38.298 15239 15257 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 14:56:38.298 15239 15257 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 14:56:38.299 15143 15143 I cr_ContextualSearch: Tap suppression enabled: false
+03-05 14:56:38.300 15143 15143 I cr_ContextualSearch: Consructing ContextualSearchRankerLoggerImpl, enabled: true
+03-05 14:56:38.307 15239 15257 I Adreno  : QUALCOMM build                   : f7a1ec7, I3fc3098c09
+03-05 14:56:38.307 15239 15257 I Adreno  : Build Date                       : 04/20/18
+03-05 14:56:38.307 15239 15257 I Adreno  : OpenGL ES Shader Compiler Version: EV031.23.00.04
+03-05 14:56:38.307 15239 15257 I Adreno  : Local Branch                     : 
+03-05 14:56:38.307 15239 15257 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.3.C2.08.00.00.435.090
+03-05 14:56:38.307 15239 15257 I Adreno  : Remote Branch                    : NONE
+03-05 14:56:38.307 15239 15257 I Adreno  : Reconstruct Branch               : NOTHING
+03-05 14:56:38.312 15239 15257 I Adreno  : PFP: 0x016ee155, ME: 0x00000000
+03-05 14:56:38.315 15203 15203 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 14:56:38.315 15203 15203 E Minikin : Could not get cmap table size!
+03-05 14:56:38.315 15203 15203 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 14:56:38.315 15203 15203 I HyLog   : I : FontManager creation successful.
+03-05 14:56:38.318 15203 15203 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 14:56:38.318 15203 15203 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 14:56:38.320 15203 15203 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 14:56:38.320 15203 15203 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 14:56:38.321 15203 15203 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 14:56:38.322 15203 15203 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 14:56:38.323 15203 15203 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 14:56:38.323 15203 15203 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 14:56:38.325 15203 15203 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 14:56:38.325 15203 15203 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 14:56:38.327 15203 15203 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 14:56:38.327 15203 15203 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 14:56:38.327 15203 15203 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 14:56:38.336 15239 15257 W AudioCapabilities: Unsupported mime audio/x-lg-alac
+03-05 14:56:38.336 15143 15234 I AudioManagerEx: AudioManagerEx created
+03-05 14:56:38.336 15239 15257 W AudioCapabilities: Unsupported mime audio/x-lg-flac
+03-05 14:56:38.337 15239 15257 W AudioCapabilities: Unsupported mime audio/adpcm
+03-05 14:56:38.338 15239 15257 W AudioCapabilities: Unsupported mime audio/g726
+03-05 14:56:38.339 15239 15257 W AudioCapabilities: Unsupported mime audio/lg-wma-voice
+03-05 14:56:38.339 15203 15203 I cr_ChildProcessService: Creating new ChildProcessService pid=15203
+03-05 14:56:38.339 15239 15257 W AudioCapabilities: Unsupported mime audio/x-lg-ms-wma
+03-05 14:56:38.339 15239 15257 W VideoCapabilities: Unsupported mime video/mjpg
+03-05 14:56:38.340 15239 15257 W VideoCapabilities: Unsupported mime video/theora
+03-05 14:56:38.341 15239 15257 W AudioCapabilities: Unsupported mime audio/dts
+03-05 14:56:38.341 15203 15203 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 14:56:38.342 15239 15257 W AudioCapabilities: Unsupported mime audio/MUSICAM
+03-05 14:56:38.342 15239 15257 W AudioCapabilities: Unsupported mime audio/bsac
+03-05 14:56:38.349 15239 15257 W VideoCapabilities: Unrecognized profile 2130706433 for video/avc
+03-05 14:56:38.349 15239 15257 W VideoCapabilities: Unrecognized profile 2130706434 for video/avc
+03-05 14:56:38.352 15239 15257 W VideoCapabilities: Unrecognized profile 2130706433 for video/avc
+03-05 14:56:38.352 15239 15257 W VideoCapabilities: Unrecognized profile 2130706434 for video/avc
+03-05 14:56:38.353 15239 15257 W VideoCapabilities: Unrecognized profile 2130706433 for video/avc
+03-05 14:56:38.353 15239 15257 W VideoCapabilities: Unrecognized profile 2130706434 for video/avc
+03-05 14:56:38.359 15239 15257 W VideoCapabilities: Unsupported mime video/mp4v-esdp
+03-05 14:56:38.364 15239 15257 I VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+03-05 14:56:38.380 15203 15265 I cr_LibraryLoader: Time to load native libraries: 0 ms (timestamps 5550-5550)
+03-05 14:56:38.382 15203 15265 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 14:56:38.382 15203 15265 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 14:56:38.398 15143 15198 I cr_VrCoreVersionChecker: Unable to find VrCore.
+03-05 14:56:38.437 14749 14844 E akcq    : Phenotype API error. Event # bqxq@f5badc05, EventCode: 7 [CONTEXT service_id=51 ]
+03-05 14:56:38.437 14749 14844 E akcq    : akbm: 29505: No config packages for log source, or config package not registered
+03-05 14:56:38.437 14749 14844 E akcq    : 	at akdd.a(:com.google.android.gms@14799019@14.7.99 (040400-223214910):45)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at akdc.b(Unknown Source:2)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at akcq.a(:com.google.android.gms@14799019@14.7.99 (040400-223214910):107)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at akcq.a(:com.google.android.gms@14799019@14.7.99 (040400-223214910):101)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at yfh.run(:com.google.android.gms@14799019@14.7.99 (040400-223214910):27)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at bely.run(:com.google.android.gms@14799019@14.7.99 (040400-223214910):2)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at rab.run(:com.google.android.gms@14799019@14.7.99 (040400-223214910):21)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at rgd.run(Unknown Source:7)
+03-05 14:56:38.437 14749 14844 E akcq    : 	at java.lang.Thread.run(Thread.java:764)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: serviceID=51, operation=GetExperimentTokensOperationCall
+03-05 14:56:38.438 14749 14844 E AsyncOperation: OperationException[Status{statusCode=No config packages for log source, or config package not registered, resolution=null}]
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at akcq.a(:com.google.android.gms@14799019@14.7.99 (040400-223214910):115)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at akcq.a(:com.google.android.gms@14799019@14.7.99 (040400-223214910):101)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at yfh.run(:com.google.android.gms@14799019@14.7.99 (040400-223214910):27)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at bely.run(:com.google.android.gms@14799019@14.7.99 (040400-223214910):2)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at rab.run(:com.google.android.gms@14799019@14.7.99 (040400-223214910):21)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at rgd.run(Unknown Source:7)
+03-05 14:56:38.438 14749 14844 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+03-05 14:56:38.632  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-51,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 14:56:38.738  3753 15285 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+03-05 14:56:39.130 15143 15143 W cr_tabmodel: Failed to restore TabState; creating Tab with last known URL.
+03-05 14:56:39.145 15286 15286 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99057: Permission denied
+03-05 14:56:39.145  1862  2818 I ActivityManager: Start proc 15286:com.android.chrome:sandboxed_process1/u0i57 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService1
+03-05 14:56:39.145 15286 15286 E Zygote  : createProcessGroup(99057, 0) failed: Permission denied
+03-05 14:56:39.153 15286 15286 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 14:56:39.164 15286 15286 I SamplingProfilerIntegration: Profiling disabled.
+03-05 14:56:39.173 15299 15299 E asset   : setgid: Operation not permitted
+03-05 14:56:39.189 15300 15300 E asset   : setgid: Operation not permitted
+03-05 14:56:39.206 15286 15286 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 14:56:39.209 15286 15286 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 14:56:39.311 15143 15143 I Timeline: Timeline: Activity_idle id: android.os.BinderProxy@939a9c4 time:37116509
+03-05 14:56:39.328 15286 15286 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 14:56:39.328 15286 15286 E Minikin : Could not get cmap table size!
+03-05 14:56:39.328 15286 15286 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 14:56:39.328 15286 15286 I HyLog   : I : FontManager creation successful.
+03-05 14:56:39.330 15286 15286 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 14:56:39.331 15286 15286 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 14:56:39.333 15286 15286 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 14:56:39.333 15286 15286 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 14:56:39.334 15286 15286 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 14:56:39.334 15286 15286 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 14:56:39.336 15286 15286 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 14:56:39.336 15286 15286 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 14:56:39.338 15286 15286 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 14:56:39.338 15286 15286 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 14:56:39.339 15286 15286 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 14:56:39.339 15286 15286 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 14:56:39.340 15286 15286 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 14:56:39.350 15286 15286 I cr_ChildProcessService: Creating new ChildProcessService pid=15286
+03-05 14:56:39.354 15286 15286 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 14:56:39.357  2403 15304 I zygote  : Explicit concurrent copying GC freed 27953(1339KB) AllocSpace objects, 0(0B) LOS objects, 65% free, 6MB/18MB, paused 473us total 42.177ms
+03-05 14:56:39.366 15143 15143 W ape     : platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+03-05 14:56:39.367  3450  3469 I GsaVoiceInteractionSrv: isHotwordRecognitionEnabled false false
+03-05 14:56:39.375 15143 15202 I cr_BindingManager: Moderate binding enabled: maxSize=40
+03-05 14:56:39.392 15286 15306 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 6552-6553)
+03-05 14:56:39.393 15286 15306 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 14:56:39.394 15286 15306 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 14:56:39.648  1324  1492 I ThermalEngine: Thermal-Server: Thermal received msg from  tmr
+03-05 14:56:39.648  1324  1492 I TMR     : C0.10
+03-05 14:56:39.648  1324  1492 E TMR     : release_thermal_recovery: tmr_state[0]->stored_freq=-1, tmr_state[0]->current_freq=-1
+03-05 14:56:39.648  1324  1492 I TMR     : C1.10
+03-05 14:56:39.648  1324  1492 E TMR     : release_thermal_recovery: tmr_state[1]->stored_freq=-1, tmr_state[1]->current_freq=-1
+03-05 14:56:39.648  1332 15323 I Thermal-Lib: Thermal-Lib-Client: Client request sent
+03-05 14:56:39.772  3686 15076 I EventLogSendingHelper: Sending log events.
+03-05 14:56:39.776  3686  3899 I WorkerManager: dispose()
+03-05 14:56:39.777  3686  3899 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+03-05 14:56:40.581   810   943 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: updated /sys/class/scsi_host/host0/../../../clkscale_enable with 1
+03-05 14:56:40.581   810   943 E ANDR-PERF-OPTSHANDLER:  return value 2
+03-05 14:56:40.641  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-51,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 14:56:40.709  1331  1372 I GBMv2   : GBM state [6]
+03-05 14:56:40.709  1331  1372 E GBMv2   : FPS Scaler: EXP
+03-05 14:56:40.812  2403  2403 I LGPowerUI: onReceive = android.intent.action.BATTERY_CHANGED
+03-05 14:56:40.812  2403  2403 I LGPowerUI: level = 100, plugType = 2, plugged = true, charging = false, temperature = 316, chargingCurrent = 0, factoryCableItem = 0, isFastCharging = false, batteryID = 1
+03-05 14:56:40.812  2403  2403 I LowBatteryModeManager: applyCmrMode() enabled: false batteryLevel: 100
+03-05 14:56:40.813  1862  3586 I DisplayPowerControllerEx: requested BacklightDimming target[-1]
+03-05 14:56:40.814  2403  2403 I LowBatteryModeManager: setCmrMode(false)
+03-05 14:56:40.815  2881  2881 W MainApplication: onReceive intent : Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+03-05 14:56:40.821  2403  2631 I AbsQuickSettingsHandlerBase: Got action android.intent.action.BATTERY_CHANGED for BATTERY_SAVER
+03-05 14:56:41.644  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-51,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 14:56:41.990   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=37119186160000)
+03-05 14:56:42.386   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=37119583531000)
+03-05 14:56:42.647  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-51,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED

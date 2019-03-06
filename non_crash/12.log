@@ -1,0 +1,54 @@
+--------- beginning of main
+03-05 15:35:26.154   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39443351510000)
+--------- beginning of system
+03-05 15:35:26.184  1862  2776 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+03-05 15:35:26.215 15143 15143 E cr_IntentUtils: getInt failed on bundle null
+03-05 15:35:26.249 21056 21056 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99125: Permission denied
+03-05 15:35:26.249 21056 21056 E Zygote  : createProcessGroup(99125, 0) failed: Permission denied
+03-05 15:35:26.249  1862  3717 I ActivityManager: Start proc 21056:com.android.chrome:sandboxed_process6/u0i125 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService6
+03-05 15:35:26.258 21056 21056 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:35:26.269 15143 15143 W cr_SpanAutocomplete: Did not notify - ignored.
+03-05 15:35:26.278 21056 21056 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:35:26.289 21069 21069 E asset   : setgid: Operation not permitted
+03-05 15:35:26.309 21071 21071 E asset   : setgid: Operation not permitted
+03-05 15:35:26.333 21056 21056 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:35:26.336 21056 21056 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:35:26.421   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39443618911000)
+03-05 15:35:26.499 21056 21056 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:35:26.499 21056 21056 E Minikin : Could not get cmap table size!
+03-05 15:35:26.499 21056 21056 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:35:26.499 21056 21056 I HyLog   : I : FontManager creation successful.
+03-05 15:35:26.501 21056 21056 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:35:26.501 21056 21056 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:35:26.503 21056 21056 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:35:26.503 21056 21056 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:35:26.504 21056 21056 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:35:26.504 21056 21056 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:35:26.506 21056 21056 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:35:26.506 21056 21056 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:35:26.507 21056 21056 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:35:26.507 21056 21056 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:35:26.509 21056 21056 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:35:26.509 21056 21056 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:35:26.509 21056 21056 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:35:26.520 21056 21056 I cr_ChildProcessService: Creating new ChildProcessService pid=21056
+03-05 15:35:26.524 21056 21056 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:35:26.580 21056 21074 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 3725-3726)
+03-05 15:35:26.583 21056 21074 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 15:35:26.584 21056 21074 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 15:35:26.945  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-56,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:27.775   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39444973022000)
+03-05 15:35:27.857  3753 21090 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+03-05 15:35:28.949  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-56,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:30.258  2881  2881 W MainApplication: onReceive intent : Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+03-05 15:35:30.261  2403  2403 I LGPowerUI: onReceive = android.intent.action.BATTERY_CHANGED
+03-05 15:35:30.261  2403  2403 I LGPowerUI: level = 100, plugType = 2, plugged = true, charging = false, temperature = 329, chargingCurrent = 0, factoryCableItem = 0, isFastCharging = false, batteryID = 1
+03-05 15:35:30.261  2403  2403 I LowBatteryModeManager: applyCmrMode() enabled: false batteryLevel: 100
+03-05 15:35:30.262  1862  2389 I DisplayPowerControllerEx: requested BacklightDimming target[-1]
+03-05 15:35:30.263  2403  2403 I LowBatteryModeManager: setCmrMode(false)
+03-05 15:35:30.269  2403  2631 I AbsQuickSettingsHandlerBase: Got action android.intent.action.BATTERY_CHANGED for BATTERY_SAVER
+03-05 15:35:30.296  1376  3975 E LocSvc_libulp: ulp_brain_process_zpp_position_report, LGE, reject report ZPP position over 25km accuracy = 1751197.750000
+03-05 15:35:30.416   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39447614255000)
+03-05 15:35:30.784   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39447982041000)
+03-05 15:35:30.884  1862  1921 I UsageStatsService: User[0] Flushing usage stats to disk
+03-05 15:35:30.956  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-56,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED

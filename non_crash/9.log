@@ -1,0 +1,87 @@
+--------- beginning of main
+--------- beginning of system
+03-05 15:35:10.251  1862  1880 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+03-05 15:35:10.272 15143 15143 E cr_IntentUtils: getInt failed on bundle null
+03-05 15:35:10.300 20922 20922 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99122: Permission denied
+03-05 15:35:10.301 20922 20922 E Zygote  : createProcessGroup(99122, 0) failed: Permission denied
+03-05 15:35:10.303  1862  1880 I ActivityManager: Start proc 20922:com.android.chrome:sandboxed_process0/u0i122 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService0
+03-05 15:35:10.311 20922 20922 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:35:10.322 15143 15143 W cr_SpanAutocomplete: Did not notify - ignored.
+03-05 15:35:10.327 20922 20922 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:35:10.341 20935 20935 E asset   : setgid: Operation not permitted
+03-05 15:35:10.368 20936 20936 E asset   : setgid: Operation not permitted
+03-05 15:35:10.388 20922 20922 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:35:10.391 20922 20922 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:35:10.515 20922 20922 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:35:10.515 20922 20922 E Minikin : Could not get cmap table size!
+03-05 15:35:10.515 20922 20922 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:35:10.515 20922 20922 I HyLog   : I : FontManager creation successful.
+03-05 15:35:10.517 20922 20922 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:35:10.517 20922 20922 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:35:10.519 20922 20922 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:35:10.519 20922 20922 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:35:10.521 20922 20922 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:35:10.521 20922 20922 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:35:10.522 20922 20922 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:35:10.522 20922 20922 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:35:10.524 20922 20922 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:35:10.524 20922 20922 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:35:10.525 20922 20922 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:35:10.525 20922 20922 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:35:10.526 20922 20922 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:35:10.539 20922 20922 I cr_ChildProcessService: Creating new ChildProcessService pid=20922
+03-05 15:35:10.545 20922 20922 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:35:10.595 20922 20940 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 7746-7747)
+03-05 15:35:10.596 20922 20940 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 15:35:10.596 20922 20940 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 15:35:10.924   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39428121334000)
+03-05 15:35:10.938  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 15:35:10.943  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 15:35:10.944  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 2
+03-05 15:35:10.944  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 15:35:10.945  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-56,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:10.955  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 15:35:10.957  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]
+03-05 15:35:10.958  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 15:35:10.959  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 15:35:10.998  1862  2776 I WifiServerServiceExt: handleLgeEvent event : 100, data : null
+03-05 15:35:11.003  1480  2350 I LOWI-8.6.0.8: [LOWI-Scan] lowi_close_record:Scan done in 334854614ms, 64 APs in scan results
+03-05 15:35:11.159  3753 20357 W AdaptiveDiscoveryWorker: Exiting Adaptive Discovery. Current NetworkInfo is NULL.
+03-05 15:35:11.334 15784 15784 I Finsky  : [2] com.google.android.finsky.scheduler.al.handleMessage(162): State changed. 
+03-05 15:35:11.334 15784 15784 I Finsky  : 	Old State: DeviceState{currentTime=1551771299681, isCharging=true, isIdle=true, netAny=false, netNotRoaming=false, netUnmetered=false}
+03-05 15:35:11.334 15784 15784 I Finsky  : 	New State: DeviceState{currentTime=1551771311326, isCharging=true, isIdle=false, netAny=false, netNotRoaming=false, netUnmetered=false}
+03-05 15:35:11.338 15784 20817 I Finsky  : [1123] com.google.android.finsky.scheduler.bp.b(89): Jobs in database: 1-1337 16-16161616 26-1414141414 
+03-05 15:35:11.339 15784 15784 I Finsky  : [2] com.google.android.finsky.scheduler.ag.a(105): RunningQueue size: 1, PendingQueue size: 1
+03-05 15:35:11.339 15784 15784 I Finsky  : [2] com.google.android.finsky.scheduler.ag.a(116): Running queue: 1-1337 
+03-05 15:35:11.995 16658 20843 E YouTube : Error in sending SendDeviceContextRequest.
+03-05 15:35:11.995 16658 20843 E YouTube : yob: java.util.concurrent.ExecutionException: bit: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:11.995 16658 20843 E YouTube : 	at ynr.b(SourceFile:20)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at yyl.a(SourceFile:3)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at adlu.a(SourceFile:89)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at vap.a(SourceFile:7)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at com.google.android.libraries.youtube.common.gcm.YouTubeGcmTaskService.a(SourceFile:18)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at com.google.android.libraries.youtube.common.gcore.gcoreclient.gcm.impl.GcmTaskServiceDelegator.a(SourceFile:12)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at out.run(SourceFile:20)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at java.lang.Thread.run(Thread.java:764)
+03-05 15:35:11.995 16658 20843 E YouTube : Caused by: java.util.concurrent.ExecutionException: bit: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:11.995 16658 20843 E YouTube : 	at ancz.b(SourceFile:105)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at ancz.get(SourceFile:92)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at ynr.b(SourceFile:19)
+03-05 15:35:11.995 16658 20843 E YouTube : 	... 9 more
+03-05 15:35:11.995 16658 20843 E YouTube : Caused by: bit: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:11.995 16658 20843 E YouTube : 	at vnk.a(SourceFile:171)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at vml.run(Unknown Source:2)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+03-05 15:35:11.995 16658 20843 E YouTube : 	at vcy.run(SourceFile:12)
+03-05 15:35:11.995 16658 20843 E YouTube : 	... 1 more
+03-05 15:35:11.995 16658 20843 E YouTube : Caused by: awzq: Exception in CronetUrlRequest: net::ERR_QUIC_PROTOCOL_ERROR, ErrorCode=10, InternalErrorCode=-356, Retryable=false, QuicDetailedErrorCode=25
+03-05 15:35:11.995 16658 20843 E YouTube : 	at org.chromium.net.impl.CronetUrlRequest.onError(SourceFile:177)
+03-05 15:35:12.311   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39429508931000)
+03-05 15:35:12.361 15784 18149 I Finsky  : [1090] com.google.android.finsky.contentfilterui.o.a(7): Received content filters request from sharedUserId=com.google.uid.shared:10112
+03-05 15:35:12.910  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-56,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:13.912  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-56,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:35:13.933   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39431130413000)
+03-05 15:35:14.936   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39432133805000)

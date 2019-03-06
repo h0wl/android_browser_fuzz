@@ -1,0 +1,108 @@
+--------- beginning of system
+03-05 15:04:43.395  1862  2316 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+--------- beginning of main
+03-05 15:04:43.418 15143 15143 E cr_IntentUtils: getInt failed on bundle null
+03-05 15:04:43.451 17085 17085 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99073: Permission denied
+03-05 15:04:43.451 17085 17085 E Zygote  : createProcessGroup(99073, 0) failed: Permission denied
+03-05 15:04:43.452  1862  3612 I ActivityManager: Start proc 17085:com.android.chrome:sandboxed_process17/u0i73 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService17
+03-05 15:04:43.461 17085 17085 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:04:43.469 15143 15143 W cr_SpanAutocomplete: Did not notify - ignored.
+03-05 15:04:43.476 17085 17085 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:04:43.487 17098 17098 E asset   : setgid: Operation not permitted
+03-05 15:04:43.508 17099 17099 E asset   : setgid: Operation not permitted
+03-05 15:04:43.527 17085 17085 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:04:43.530 17085 17085 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:04:43.550  2403  2403 I LGPowerUI: onReceive = android.intent.action.BATTERY_CHANGED
+03-05 15:04:43.550  2403  2403 I LGPowerUI: level = 100, plugType = 2, plugged = true, charging = false, temperature = 325, chargingCurrent = 0, factoryCableItem = 0, isFastCharging = false, batteryID = 1
+03-05 15:04:43.550  2403  2403 I LowBatteryModeManager: applyCmrMode() enabled: false batteryLevel: 100
+03-05 15:04:43.550  1862  2316 I DisplayPowerControllerEx: requested BacklightDimming target[-1]
+03-05 15:04:43.550  2403  2403 I LowBatteryModeManager: setCmrMode(false)
+03-05 15:04:43.551  2881  2881 W MainApplication: onReceive intent : Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+03-05 15:04:43.560  2403  2631 I AbsQuickSettingsHandlerBase: Got action android.intent.action.BATTERY_CHANGED for BATTERY_SAVER
+03-05 15:04:43.665 17085 17085 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:04:43.665 17085 17085 E Minikin : Could not get cmap table size!
+03-05 15:04:43.665 17085 17085 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:04:43.665 17085 17085 I HyLog   : I : FontManager creation successful.
+03-05 15:04:43.667 17085 17085 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:04:43.667 17085 17085 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:04:43.669 17085 17085 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:04:43.669 17085 17085 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:04:43.671 17085 17085 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:04:43.671 17085 17085 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:04:43.673 17085 17085 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:04:43.673 17085 17085 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:04:43.674 17085 17085 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:04:43.674 17085 17085 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:04:43.676 17085 17085 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:04:43.676 17085 17085 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:04:43.676 17085 17085 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:04:43.690 17085 17085 I cr_ChildProcessService: Creating new ChildProcessService pid=17085
+03-05 15:04:43.695 17085 17085 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:04:43.735 17085 17103 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 893-894)
+03-05 15:04:43.736 17085 17103 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 15:04:43.736 17085 17103 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 15:04:43.753 15143 15224 E chromium: [ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+03-05 15:04:43.762 15143 15224 E chromium: [ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+03-05 15:04:43.810 17119 17119 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99074: Permission denied
+03-05 15:04:43.810 17119 17119 E Zygote  : createProcessGroup(99074, 0) failed: Permission denied
+03-05 15:04:43.814  1862  2790 I ActivityManager: Start proc 17119:com.android.chrome:sandboxed_process18/u0i74 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService18
+03-05 15:04:43.816 17119 17119 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:04:43.827 17119 17119 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:04:43.830  1862  2316 I ActivityManager: Process com.android.chrome:sandboxed_process17 (pid 17085) has died: cch  CACC
+03-05 15:04:43.831  1862  2316 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService17 in 1000ms
+03-05 15:04:43.831  1862  1924 W zygote64: failed to open /acct/uid_99073/pid_17085/cgroup.procs: No such file or directory
+03-05 15:04:43.831 15143 15202 W cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=17085
+03-05 15:04:43.843 17134 17134 E asset   : setgid: Operation not permitted
+03-05 15:04:43.850 17135 17135 E asset   : setgid: Operation not permitted
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: Exception when calling getInstantAppLaunchData
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: FP: 19500: Not an instant app
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at IV.a(SourceFile:3)
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at IN.a(SourceFile:7)
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at com.google.android.gms.common.api.internal.BasePendingResult.c(SourceFile:136)
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at com.google.android.gms.common.api.internal.BasePendingResult.a(SourceFile:97)
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at NR.a(SourceFile:2)
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at NN.a(SourceFile:29)
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at Um.onTransact(SourceFile:12)
+03-05 15:04:43.853 15143 15143 E cr_InstantAppsHandlerI: 	at android.os.Binder.execTransact(Binder.java:690)
+03-05 15:04:43.863 17119 17119 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:04:43.864 17119 17119 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:04:43.975 17119 17119 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:04:43.975 17119 17119 E Minikin : Could not get cmap table size!
+03-05 15:04:43.975 17119 17119 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:04:43.975 17119 17119 I HyLog   : I : FontManager creation successful.
+03-05 15:04:43.977 17119 17119 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:04:43.977 17119 17119 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:04:43.979 17119 17119 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:04:43.979 17119 17119 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:04:43.980 17119 17119 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:04:43.981 17119 17119 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:04:43.982 17119 17119 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:04:43.982 17119 17119 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:04:43.984 17119 17119 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:04:43.984 17119 17119 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:04:43.985 17119 17119 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:04:43.985 17119 17119 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:04:43.985 17119 17119 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:04:43.996 17119 17119 I cr_ChildProcessService: Creating new ChildProcessService pid=17119
+03-05 15:04:44.003 17119 17119 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:04:44.005  1862  3588 I ActivityManager: Killing 17119:com.android.chrome:sandboxed_process18/u0a205i74 (adj 0): isolated not needed
+03-05 15:04:44.005  1862  1924 W zygote64: failed to open /acct/uid_99074/pid_17119/cgroup.procs: No such file or directory
+03-05 15:04:44.010  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:04:44.372  2403  2403 I LGPowerUI: onReceive = android.intent.action.BATTERY_CHANGED
+03-05 15:04:44.372  2403  2403 I LGPowerUI: level = 100, plugType = 2, plugged = true, charging = false, temperature = 325, chargingCurrent = 0, factoryCableItem = 0, isFastCharging = false, batteryID = 1
+03-05 15:04:44.373  2403  2403 I LowBatteryModeManager: applyCmrMode() enabled: false batteryLevel: 100
+03-05 15:04:44.373  1862  3588 I DisplayPowerControllerEx: requested BacklightDimming target[-1]
+03-05 15:04:44.374  2403  2403 I LowBatteryModeManager: setCmrMode(false)
+03-05 15:04:44.375  2403  2631 I AbsQuickSettingsHandlerBase: Got action android.intent.action.BATTERY_CHANGED for BATTERY_SAVER
+03-05 15:04:44.376  2881  2881 W MainApplication: onReceive intent : Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+03-05 15:04:44.859   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=37602057167000)
+03-05 15:04:45.015  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:04:45.197  1479  1479 E MSM-irqbalance: IRQ 82 not found in internal structure or should be ignored
+03-05 15:04:45.197  1479  1479 E MSM-irqbalance: IRQ 82 not found in internal structure or should be ignored
+03-05 15:04:45.902  3753  5795 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+03-05 15:04:45.903  3753  5795 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799019@14.7.99 (040400-223214910):2)
+03-05 15:04:45.903  3753  5795 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799019@14.7.99 (040400-223214910):2)
+03-05 15:04:46.018  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:04:46.866   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=37604063792000)
+03-05 15:04:46.883   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=37604080498000)
+03-05 15:04:47.020  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED

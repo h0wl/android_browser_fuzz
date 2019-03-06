@@ -1,0 +1,67 @@
+--------- beginning of system
+03-05 15:34:49.067  1862  2733 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+--------- beginning of main
+03-05 15:34:49.096 15143 15143 E cr_IntentUtils: getInt failed on bundle null
+03-05 15:34:49.129  1862  2818 I ActivityManager: Start proc 20705:com.android.chrome:sandboxed_process36/u0i119 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService36
+03-05 15:34:49.133 20705 20705 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99119: Permission denied
+03-05 15:34:49.133 20705 20705 E Zygote  : createProcessGroup(99119, 0) failed: Permission denied
+03-05 15:34:49.143 20705 20705 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:34:49.161 15143 15143 W cr_SpanAutocomplete: Did not notify - ignored.
+03-05 15:34:49.164 20705 20705 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:34:49.178 20718 20718 E asset   : setgid: Operation not permitted
+03-05 15:34:49.207 20720 20720 E asset   : setgid: Operation not permitted
+03-05 15:34:49.225 20705 20705 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:34:49.226 20705 20705 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:34:49.302  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 3, mRequestPolicy = 2, mPowerState.getColorFadeLevel() = 1.0, mPowerState.getScreenState() = 2, mPowerState.getScreenBrightness() = 144, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:34:49.303  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (true,true)
+03-05 15:34:49.340 20705 20705 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:34:49.340 20705 20705 E Minikin : Could not get cmap table size!
+03-05 15:34:49.340 20705 20705 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:34:49.340 20705 20705 I HyLog   : I : FontManager creation successful.
+03-05 15:34:49.343 20705 20705 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:34:49.343 20705 20705 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:34:49.345 20705 20705 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:34:49.345 20705 20705 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:34:49.346 20705 20705 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:34:49.346 20705 20705 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:34:49.348 20705 20705 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:34:49.348 20705 20705 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:34:49.349 20705 20705 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:34:49.350 20705 20705 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:34:49.351 20705 20705 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:34:49.351 20705 20705 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:34:49.351 20705 20705 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:34:49.366 20705 20705 I cr_ChildProcessService: Creating new ChildProcessService pid=20705
+03-05 15:34:49.370 20705 20705 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:34:49.414 20705 20722 I cr_LibraryLoader: Time to load native libraries: 0 ms (timestamps 6575-6575)
+03-05 15:34:49.415 20705 20722 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 15:34:49.416 20705 20722 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 15:34:49.638  1862  1934 W DisplayPowerControllerEx: updatePowerState() : mPowerRequest.policy = 2, mRequestPolicy = 2, mPowerState.getColorFadeLevel() = 1.0, mPowerState.getScreenState() = 2, mPowerState.getScreenBrightness() = 10, mPendingUpdatePowerState = false, mIsFinishDrawBasicInfo = false
+03-05 15:34:49.638  1862  1934 I DisplayPowerControllerEx: setScreenState : set interactive (main,sub) to (true,true)
+03-05 15:34:50.272  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 15:34:50.274  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 2
+03-05 15:34:50.275  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 15:34:50.275  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-57,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:34:50.275  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 15:34:50.275  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 15:34:50.277  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]
+03-05 15:34:50.278  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 15:34:50.278  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 15:34:50.927  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-57,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:34:51.929  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-57,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:34:52.367  1479  1479 E MSM-irqbalance: IRQ 82 not found in internal structure or should be ignored
+03-05 15:34:52.594   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39409792199000)
+03-05 15:34:52.932  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-57,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:34:53.299  2702  2847 W QCNEJ   : |CORE| notifyWifiStatusChanged failed
+03-05 15:34:53.299  2403  2631 I NetworkController: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+03-05 15:34:53.300  2403  2631 I LGWifiStatusTracker: Wifi connected = true, Wifi level = 3
+03-05 15:34:53.300  2403  2631 I NetworkController.WifiSignalController: mCurrentState.enabled = true, mCurrentState.connected = true, mCurrentState.detailedState = CONNECTED, mCurrentState.inetCondition = 1
+03-05 15:34:53.300  2403  2631 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:34:53.305  5196  5262 I CarrierServices: [202] bxx.a: FiST: Wifi connectivity status true
+03-05 15:34:53.307  5196  5262 I CarrierServices: [202] byc.d: Connected state: [1], networkType: [WIFI]
+03-05 15:34:53.308  5196  5356 I CarrierServices: [223] dby.a: CarrierServices.apk is not sim call manager. Not enabling MMTel.
+03-05 15:34:53.308  5196  5356 I CarrierServices: [223] bdq.run: (MMTel): : Ignoring Network Change based on IMS preferences
+03-05 15:34:53.435   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39410632156000)
+03-05 15:34:53.815   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39411012710000)
+03-05 15:34:53.934  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:34:54.066   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39411263073000)

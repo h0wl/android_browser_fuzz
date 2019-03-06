@@ -1,0 +1,107 @@
+--------- beginning of main
+--------- beginning of system
+03-05 15:06:53.037  1862  2389 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+03-05 15:06:53.063 15143 15143 E cr_IntentUtils: getInt failed on bundle null
+03-05 15:06:53.101 17732 17732 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99084: Permission denied
+03-05 15:06:53.101 17732 17732 E Zygote  : createProcessGroup(99084, 0) failed: Permission denied
+03-05 15:06:53.104  1862 11478 I ActivityManager: Start proc 17732:com.android.chrome:sandboxed_process28/u0i84 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService28
+03-05 15:06:53.117 17732 17732 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:06:53.122 15143 15143 W cr_SpanAutocomplete: Did not notify - ignored.
+03-05 15:06:53.145 17732 17732 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:06:53.159 17745 17745 E asset   : setgid: Operation not permitted
+03-05 15:06:53.186 17746 17746 E asset   : setgid: Operation not permitted
+03-05 15:06:53.202 15143 15224 E chromium: [ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+03-05 15:06:53.208 17732 17732 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:06:53.211 15143 15224 E chromium: [ERROR:ssl_client_socket_impl.cc(1013)] handshake failed; returned -1, SSL error code 1, net_error -101
+03-05 15:06:53.211 17732 17732 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:06:53.217  2881  2881 W MainApplication: onReceive intent : Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+03-05 15:06:53.219  2403  2403 I LGPowerUI: onReceive = android.intent.action.BATTERY_CHANGED
+03-05 15:06:53.219  2403  2403 I LGPowerUI: level = 100, plugType = 2, plugged = true, charging = false, temperature = 325, chargingCurrent = 0, factoryCableItem = 0, isFastCharging = false, batteryID = 1
+03-05 15:06:53.219  2403  2403 I LowBatteryModeManager: applyCmrMode() enabled: false batteryLevel: 100
+03-05 15:06:53.220  1862 11478 I DisplayPowerControllerEx: requested BacklightDimming target[-1]
+03-05 15:06:53.220  2403  2403 I LowBatteryModeManager: setCmrMode(false)
+03-05 15:06:53.222  2403  2631 I AbsQuickSettingsHandlerBase: Got action android.intent.action.BATTERY_CHANGED for BATTERY_SAVER
+03-05 15:06:53.272 17750 17750 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99085: Permission denied
+03-05 15:06:53.273 17750 17750 E Zygote  : createProcessGroup(99085, 0) failed: Permission denied
+03-05 15:06:53.278  1862  2389 I ActivityManager: Start proc 17750:com.android.chrome:sandboxed_process29/u0i85 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService29
+03-05 15:06:53.280 17750 17750 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: Exception when calling getInstantAppLaunchData
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: FP: 19500: Not an instant app
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at IV.a(SourceFile:3)
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at IN.a(SourceFile:7)
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at com.google.android.gms.common.api.internal.BasePendingResult.c(SourceFile:136)
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at com.google.android.gms.common.api.internal.BasePendingResult.a(SourceFile:97)
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at NR.a(SourceFile:2)
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at NN.a(SourceFile:29)
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at Um.onTransact(SourceFile:12)
+03-05 15:06:53.284 15143 15143 E cr_InstantAppsHandlerI: 	at android.os.Binder.execTransact(Binder.java:690)
+03-05 15:06:53.295 17750 17750 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:06:53.306 17763 17763 E asset   : setgid: Operation not permitted
+03-05 15:06:53.321 17765 17765 E asset   : setgid: Operation not permitted
+03-05 15:06:53.337 17750 17750 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:06:53.337 17732 17732 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:06:53.337 17732 17732 E Minikin : Could not get cmap table size!
+03-05 15:06:53.337 17732 17732 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:06:53.337 17732 17732 I HyLog   : I : FontManager creation successful.
+03-05 15:06:53.340 17732 17732 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:06:53.340 17732 17732 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:06:53.340 17750 17750 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:06:53.341 17732 17732 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:06:53.341 17732 17732 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:06:53.343 17732 17732 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:06:53.343 17732 17732 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:06:53.345 17732 17732 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:06:53.345 17732 17732 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:06:53.346 17732 17732 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:06:53.346 17732 17732 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:06:53.348 17732 17732 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:06:53.348 17732 17732 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:06:53.348 17732 17732 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:06:53.358 17732 17732 I cr_ChildProcessService: Creating new ChildProcessService pid=17732
+03-05 15:06:53.361 17732 17732 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:06:53.387 15143 15224 W chromium: [WARNING:monitor.cc(420)] Request to https://beacons.gcp.gvt2.com/domainreliability/upload had (at least) two NEL headers: "{"failure_fraction":1" and ""include_subdomains":false".
+03-05 15:06:53.396 17732 17767 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 562-563)
+03-05 15:06:53.397 17732 17767 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 15:06:53.397 17732 17767 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 15:06:53.465 17750 17750 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:06:53.465 17750 17750 E Minikin : Could not get cmap table size!
+03-05 15:06:53.465 17750 17750 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:06:53.465 17750 17750 I HyLog   : I : FontManager creation successful.
+03-05 15:06:53.467 17750 17750 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:06:53.467 17750 17750 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:06:53.469 17750 17750 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:06:53.469 17750 17750 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:06:53.471 17750 17750 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:06:53.471 17750 17750 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:06:53.472 17750 17750 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:06:53.472 17750 17750 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:06:53.474 17750 17750 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:06:53.474 17750 17750 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:06:53.475 17750 17750 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:06:53.475 17750 17750 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:06:53.476 17750 17750 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:06:53.477 15143 15202 W cr_ChildProcessConn: onServiceDisconnected (crash or killed by oom): pid=17732
+03-05 15:06:53.477  1862  1924 W zygote64: failed to open /acct/uid_99084/pid_17732/cgroup.procs: No such file or directory
+03-05 15:06:53.477  1862  2316 I ActivityManager: Process com.android.chrome:sandboxed_process28 (pid 17732) has died: cch  CACC
+03-05 15:06:53.478  1862  2316 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService28 in 1000ms
+03-05 15:06:53.487 17750 17750 I cr_ChildProcessService: Creating new ChildProcessService pid=17750
+03-05 15:06:53.497 17750 17750 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:06:53.498  1862  2780 I ActivityManager: Killing 17750:com.android.chrome:sandboxed_process29/u0a205i85 (adj 0): isolated not needed
+03-05 15:06:53.498  1862  1924 W zygote64: failed to open /acct/uid_99085/pid_17750/cgroup.procs: No such file or directory
+03-05 15:06:53.558  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:06:54.564  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:06:54.739  3753 17787 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+03-05 15:06:56.568  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=2,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=false,activityOut=true,rssi=-59,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:06:56.777 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@6b1b0da[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 30]
+03-05 15:06:56.779 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@26e90b[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 54]
+03-05 15:06:56.863 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@514c3e8[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 10]
+03-05 15:06:56.864 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@af84a01[Running, pool size = 1, active threads = 1, queued tasks = 4, completed tasks = 0]
+03-05 15:06:56.870 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@a00a6[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+03-05 15:06:56.871 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: SplitInstallBackgroundThread com.google.android.finsky.bo.ao@6d90ae7[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+03-05 15:06:56.872 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@1663694[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+03-05 15:06:56.873 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@79e853d[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+03-05 15:06:56.874 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5458132[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 15]
+03-05 15:06:56.875 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@aa16e83[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+03-05 15:06:57.195 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@2ba2800[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+03-05 15:06:57.196 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@1733839[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+03-05 15:06:57.314 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@e467e7e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]

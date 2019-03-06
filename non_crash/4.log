@@ -1,0 +1,56 @@
+--------- beginning of system
+03-05 15:34:43.791  1862  3673 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://10.130.6.62:8888/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+--------- beginning of main
+03-05 15:34:43.810 15143 15143 E cr_IntentUtils: getInt failed on bundle null
+03-05 15:34:43.850  1862  3673 I ActivityManager: Start proc 20658:com.android.chrome:sandboxed_process35/u0i118 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService35
+03-05 15:34:43.850 20658 20658 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99118: Permission denied
+03-05 15:34:43.851 20658 20658 E Zygote  : createProcessGroup(99118, 0) failed: Permission denied
+03-05 15:34:43.861 20658 20658 W /system/bin/webview_zygote32: Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+03-05 15:34:43.871 15143 15143 W cr_SpanAutocomplete: Did not notify - ignored.
+03-05 15:34:43.876 20658 20658 I SamplingProfilerIntegration: Profiling disabled.
+03-05 15:34:43.888 20671 20671 E asset   : setgid: Operation not permitted
+03-05 15:34:43.917 20672 20672 E asset   : setgid: Operation not permitted
+03-05 15:34:43.939 20658 20658 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:34:43.942 20658 20658 E asset   : AssetManager::addSystemOverlays delete oidmap
+03-05 15:34:44.091 20658 20658 E Typeface: Error mapping font file /system/fonts/LGAka_Light.ttf
+03-05 15:34:44.091 20658 20658 E Minikin : Could not get cmap table size!
+03-05 15:34:44.091 20658 20658 E Typeface: Unable to load Family: lg-lgaka:null
+03-05 15:34:44.091 20658 20658 I HyLog   : I : FontManager creation successful.
+03-05 15:34:44.093 20658 20658 I HyLog   : I : Add Embedded Font Family( default_roboto ), FullPath( /system/fonts/Roboto-Regular.ttf )
+03-05 15:34:44.093 20658 20658 I Typeface: Add Embedded Font (0) : default_roboto, /system/fonts/Roboto-Regular.ttf loaded.
+03-05 15:34:44.095 20658 20658 I HyLog   : I : Add Embedded Font Family( lgsm ), FullPath( /system/fonts/LGSmHa_Regular.ttf )
+03-05 15:34:44.095 20658 20658 I Typeface: Add Embedded Font (1) : lgsm, /system/fonts/LGSmHa_Regular.ttf loaded.
+03-05 15:34:44.096 20658 20658 I HyLog   : I : Add Embedded Font Family( lgkindgothic ), FullPath( /system/fonts/HYKindGothic_Regular.ttf )
+03-05 15:34:44.096 20658 20658 I Typeface: Add Embedded Font (2) : lgkindgothic, /system/fonts/HYKindGothic_Regular.ttf loaded.
+03-05 15:34:44.098 20658 20658 I HyLog   : I : Add Embedded Font Family( lgfriend ), FullPath( /system/fonts/HYFriend_Regular.ttf )
+03-05 15:34:44.098 20658 20658 I Typeface: Add Embedded Font (3) : lgfriend, /system/fonts/HYFriend_Regular.ttf loaded.
+03-05 15:34:44.099 20658 20658 I HyLog   : I : Add Embedded Font Family( lgtravel ), FullPath( /system/fonts/HYTravel_Regular.ttf )
+03-05 15:34:44.099 20658 20658 I Typeface: Add Embedded Font (4) : lgtravel, /system/fonts/HYTravel_Regular.ttf loaded.
+03-05 15:34:44.101 20658 20658 I HyLog   : I : Add Embedded Font Family( lgyoyo ), FullPath( /system/fonts/HYYoyo_Regular.ttf )
+03-05 15:34:44.101 20658 20658 I Typeface: Add Embedded Font (5) : lgyoyo, /system/fonts/HYYoyo_Regular.ttf loaded.
+03-05 15:34:44.101 20658 20658 I Typeface: Boot DefaultTypeface ( default_roboto )
+03-05 15:34:44.112 20658 20658 I cr_ChildProcessService: Creating new ChildProcessService pid=20658
+03-05 15:34:44.116 20658 20658 E WebViewFactory: can't load with relro file; address space not reserved
+03-05 15:34:44.158 20658 20676 I cr_LibraryLoader: Time to load native libraries: 1 ms (timestamps 1318-1319)
+03-05 15:34:44.160 20658 20676 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+03-05 15:34:44.160 20658 20676 I cr_LibraryLoader: Expected native library version number "71.0.3578.99", actual native library version number "71.0.3578.99"
+03-05 15:34:44.911  2403  2403 I NetworkController.WifiSignalController: Change in state to: connected=true,enabled=true,level=3,inetCondition=1,iconGroup=IconGroup(Default Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-55,lteadvancedmode=0,ssid="ICT_WaveLAN",badgeEnum=0,isTransient=false,isGigaWiFi=false,isAttWifiCall=false,detailedState=CONNECTED
+03-05 15:34:45.372   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39402570123000)
+03-05 15:34:46.024   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39403222028000)
+03-05 15:34:46.175   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39403372494000)
+03-05 15:34:46.877 15143 15224 I SensorManager: registerListenerImpl() [Sensor: Game Rotation Vector  Non-wakeup, Rate: 16666, SensorEventListener: org.chromium.device.sensors.PlatformSensor@64b020a] by org.chromium.device.sensors.PlatformSensor.startSensor():37
+03-05 15:34:46.879   800   800 I sensors_hal: batch:166, android.sensor.game_rotation_vector/15, period=16666000, max_latency=0
+03-05 15:34:46.879   800   800 I sensors_hal: batch:175, android.sensor.game_rotation_vector/15, period=16666000, max_latency=0 request completed
+03-05 15:34:46.879   800   800 I sensors_hal: activate:133, android.sensor.game_rotation_vector/15 en=1
+03-05 15:34:46.879   800   800 E         : ssc_connection:472, ssc connected 800, 0x7af202d1f8
+03-05 15:34:46.879   800   800 E         : send_request:490, send_request: 800, 0x7af202d1f8 
+03-05 15:34:46.882   800   800 I sensors_hal: activate:144, android.sensor.game_rotation_vector/15 en=1 completed
+03-05 15:34:46.893   825   944 W HWComposer: Ignoring duplicate VSYNC event from HWC (t=39404091088000)
+03-05 15:34:47.000 15143 15224 I SensorManager: unregisterListenerImpl() [Sensor: Game Rotation Vector  Non-wakeup, SensorEventListener: org.chromium.device.sensors.PlatformSensor@64b020a] by org.chromium.device.sensors.PlatformSensor.a():50
+03-05 15:34:47.001   800   800 I sensors_hal: activate:133, android.sensor.game_rotation_vector/15 en=0
+03-05 15:34:47.001   800   800 E         : ~ssc_connection:480, ssc disconnected 800, 0x7af202d1f8 
+03-05 15:34:47.003   800   800 I sensors_hal: activate:144, android.sensor.game_rotation_vector/15 en=0 completed
+03-05 15:34:47.367  1479  1479 E MSM-irqbalance: IRQ 82 not found in internal structure or should be ignored
+03-05 15:34:47.429 15143 20226 E cr_MediaFling: Server response is not valid: 404
+03-05 15:34:47.453 15143 20226 E cr_MediaFling: Server response is not valid: 404
+03-05 15:34:48.568 15784 15809 I Finsky  : [1009] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@5f70e5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
